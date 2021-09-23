@@ -10,7 +10,7 @@
     * [High Level Technical Requirements](#high-level-technical-requirements)
        * [Candidate Forms](#candidate-forms)
        * [Screening Forms](#screening-forms)
-       * [Shipping and Distribution](#shipping-and-distribution)
+       * [Candidate Tests](#candidate-tests)
        * [Mobile Application ALF](#mobile-application-alf)
        * [Printers](#printers)
        * [Live Chat](#live-chat)    
@@ -151,8 +151,8 @@ As default google analytics should be in place which then may be expanded to inc
 
 #### High Level Technical Requirements    
   * Candidate Forms
-  * External Reports
-  * Shipping & Distribution
+  * Screening Forms
+  * Candidate Tests
   * Mobile Application (ALF)
   * Printers
   * Live Chat
@@ -193,7 +193,7 @@ Storage file types and delivery options mainly method 1 need to be reviewed in d
 <img src="https://user-images.githubusercontent.com/52332471/106593958-59e30400-6549-11eb-83a0-4d31203a50c0.png" />
  </p>
 
-##### Shipping and Distribution  
+##### Candidate Tests  
 Access to an externaly shipping and distribution service will be required. Current considerations is mywarehouse which offers an API connection. Documentation of the API can be found in the link below
 
 <a target="_blank" href="https://www.orderfulfilment.co.uk/s/myWarehouse_api_v1_9_consolidated.pdf" style="font-size:1.1em;">myWarehouse API Documentation</a>
