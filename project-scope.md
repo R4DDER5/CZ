@@ -160,16 +160,22 @@ As default google analytics should be in place which then may be expanded to inc
   
 ##### Candidate Forms
 
-The LIFO site will be responsible for generating lifestyle reports. These reports would be available for access via the ALIVE site. The reports purchased via the ALIVE site will be branded accordingly. The contents of the report will need to provided to the ALIVE site in the most efficient method. The requirement will be that report document is generated dynamically and does not involve additional login procedures for any customer to access their personal reports. The reports will need to be managed via the administration area of the site. This will involve a notification when a report is ready to the admin and also the ability to easily publish the report to display for the customer, notifying them when the report is ready. 
+The ability to create, manage and assign forms. The creation of forms will include a version of form builder built on existing format. This will include the creation of form pages, sections and elements.  
 
-STILL FOR DISCUSSION
-Ideally the system will exchange report content via a data method such as an API. The report(s) will contain a mixture of elements such as graphs, tables and pictures as well as text. Ideally the core fixed elements will be controlled via a template system with ability to insert dynamic elements within the document.  
-The internal system report generator (LIFO) will provide the full data and structural requirements to build the reports, this could further be utilised to provide further opportunity to provide reports as a service to external 3rd parties. The reports will be dynamically generated based on data from the LIFO site. This will involve full data integration between LIFO and ALIVE.
+The forms will need to include the ability to add standard features such as conditional logic based on a form response.
 
-__GENKEY__
-The genkey is an automatic identifier or referral code. It can be anything required to identify or track a customer or offer incentives. This would likely be included in an insert page to the end of report. A design of page would be provided as there may be multiple referral codes contained within the page. This could be linked to the user or seasonal/special offers. The option to provide any key ideally would be located in the login process and/or checkout process. Any activated incentives to the customer may be associated to their profile, however may only apply for a certain period of time. Ensuring keys cannot be passed to other people or used multiple times will need to be incorporated into testing.
+The form will need to have the ability to add special features such as 
+Calender Verification
 
-__IMPORTANT: Deciding PDF GENERATING SOFTWARE__  
+There will be more feature requests so this will need the flexability to customise 
+
+PDF Report generation of response with the flexability to incorporate client branding and design
+
+
+__SUB HEADING__
+
+
+__SUB HEADING__  
 To use any 3rd party print services you will most likely need to set the report in a print template to incorporate print requirments for machines, it may differ by printer/machines. The print layout may be a diffent to any standard generated PDF layout. The printer will also require the report document to have even page numbers usually divisable by 4. Report pages may not be a standard number due to unique information contained. Therefore additional blank pages will need to be added to the document to achieve the correct page count. Any PDF generating software will need adaptable enough to include templates. A further consinderation will need to be made for reports (PDF) provided via 3rd party to enable processing and preparing the document for print when uploaded. The other option is that the printer sets the page count and template for report(s) which will incur a cost each time.
 
 <p align="center">
@@ -178,10 +184,7 @@ To use any 3rd party print services you will most likely need to set the report 
   
 ##### Screening Forms
 
-The system needs to be developed in a way that can accommodate any external reports from multiple 3rd parties. There will be a need to provide functionality to allow ANY 3rd party to submit reports. This will heavily depend on the functionality of the 3rd party and how they provide the reports. We will develop a system that will minimise further development work to accommodate.  
-The two scenarios are as follows:  
-The 3rd Party provides us the physical report in their preferred format  
-The 3rd party provides us access to some form of API that allows us to generate the reports
+Screening forms will be based on the standard form process. The diference with screening forms is that the form will be processed by internal staff
 
 __Method 1:__ The 3rd party provides us with the physical report: There will be some structure to process that the 3rd party will be informed of, mainly the external provider will upload the document via ALIVE system. Details of report provided will be discussed resolution, page layout, file size, delivery options. A simple system is created that notifies the 3rd party when a report is required, who the customer is and requirements and what date the expected sample/data is received or required. This will presumably be via email and additional elements may also be included in the email body or further emails sent. Contained within the email body will be a link to submit the report when complete, this link can be generated to incorporate important information required by ALIVE customer, document type and document storage. This link will have access for the 3rd party to upload the document, preferably without needing to login. On upload the document will be encrypted, stored in appropriate place and be prepared for moderation. The relevant moderator will notified that the document is ready. The document will then be easily approved by the moderator. Once approved the customer will have access to the document and receive notification via email. The document may need to be processed accordingly to suit print requirements.
 
@@ -194,7 +197,13 @@ Storage file types and delivery options mainly method 1 need to be reviewed in d
  </p>
 
 ##### Candidate Tests  
-Access to an externaly shipping and distribution service will be required. Current considerations is mywarehouse which offers an API connection. Documentation of the API can be found in the link below
+Candidate tests will be based in intial design functionalitly of forms
+
+Questions will need to be able to be formatted ideally with a WYSIWG editor.
+
+Questions will take the form of text images and video.
+
+
 
 <a target="_blank" href="https://www.orderfulfilment.co.uk/s/myWarehouse_api_v1_9_consolidated.pdf" style="font-size:1.1em;">myWarehouse API Documentation</a>
 
