@@ -4,7 +4,7 @@
   * [Project Objectives](#project-objectives)
 * [__Project Scope and Tasks__](#project-scope-and-tasks)
   * [Project Scope](#project-scope)
-    * [Store Design and Development](#store-design-and-development)
+    * [Site Design and Development](#site-design-and-development)
     * [Information Architecture](#information-architecture)
     * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
     * [High Level Technical Requirements](#high-level-technical-requirements)
@@ -77,7 +77,7 @@ Proposal of what the project aims to achieve with the following objectives:
 ## Project Scope and Tasks
 ### PROJECT SCOPE
 
-#### Store Design and Development 
+#### Site Design and Development 
 The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals.  
  
 
