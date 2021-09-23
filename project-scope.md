@@ -8,7 +8,7 @@
     * [Information Architecture](#information-architecture)
     * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
     * [High Level Technical Requirements](#high-level-technical-requirements)
-       * [Internal Reports](#internal-reports)
+       * [Candidate Forms](#candidate-forms)
        * [External Reports](#external-reports)
        * [Shipping and Distribution](#shipping-and-distribution)
        * [Mobile Application ALF](#mobile-application-alf)
@@ -150,7 +150,7 @@ As default google analytics should be in place which then may be expanded to inc
 
 
 #### High Level Technical Requirements    
-  * Internal Reports
+  * Candidate Forms
   * External Reports
   * Shipping & Distribution
   * Mobile Application (ALF)
@@ -158,7 +158,7 @@ As default google analytics should be in place which then may be expanded to inc
   * Live Chat
  
   
-##### Internal Reports
+##### Candidate Forms
 
 The LIFO site will be responsible for generating lifestyle reports. These reports would be available for access via the ALIVE site. The reports purchased via the ALIVE site will be branded accordingly. The contents of the report will need to provided to the ALIVE site in the most efficient method. The requirement will be that report document is generated dynamically and does not involve additional login procedures for any customer to access their personal reports. The reports will need to be managed via the administration area of the site. This will involve a notification when a report is ready to the admin and also the ability to easily publish the report to display for the customer, notifying them when the report is ready. 
 
