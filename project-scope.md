@@ -149,7 +149,7 @@ __The admin for the e-commerce site will include:__
 As default google analytics should be in place which then may be expanded to include further SEO tools. Monitoring of 3rd party market activity and social media tracking should also be considered if required.
 
 
-#### High Level Technical Requirements    
+### High Level Technical Requirements    
   * Candidate Forms
   * Screening Forms
   * Candidate Tests
@@ -158,7 +158,7 @@ As default google analytics should be in place which then may be expanded to inc
   * Live Chat
  
   
-##### Candidate Forms
+#### Candidate Forms
 
 The ability to create, manage and assign forms. The creation of forms will include a version of form builder built on existing format. This will include the creation of form pages, sections and elements.  
 
@@ -182,7 +182,7 @@ To use any 3rd party print services you will most likely need to set the report 
 <img src="https://user-images.githubusercontent.com/52332471/106425148-5709e580-645b-11eb-8f09-2159b86d14df.png" />
  </p>
   
-##### Screening Forms
+#### Screening Forms
 
 Screening forms will be based on the standard form process. The diference with screening forms is that the form will be processed by internal staff
 
@@ -196,7 +196,7 @@ Storage file types and delivery options mainly method 1 need to be reviewed in d
 <img src="https://user-images.githubusercontent.com/52332471/106593958-59e30400-6549-11eb-83a0-4d31203a50c0.png" />
  </p>
 
-##### Candidate Tests  
+#### Candidate Tests  
 Candidate tests will be based in intial design functionalitly of forms
 
 Questions will need to be able to be formatted ideally with a WYSIWG editor.
