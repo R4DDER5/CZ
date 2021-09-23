@@ -9,7 +9,7 @@
     * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
     * [High Level Technical Requirements](#high-level-technical-requirements)
        * [Candidate Forms](#candidate-forms)
-       * [External Reports](#external-reports)
+       * [Screening Forms](#screening-forms)
        * [Shipping and Distribution](#shipping-and-distribution)
        * [Mobile Application ALF](#mobile-application-alf)
        * [Printers](#printers)
@@ -176,7 +176,7 @@ To use any 3rd party print services you will most likely need to set the report 
 <img src="https://user-images.githubusercontent.com/52332471/106425148-5709e580-645b-11eb-8f09-2159b86d14df.png" />
  </p>
   
-##### External Reports 
+##### Screening Forms
 
 The system needs to be developed in a way that can accommodate any external reports from multiple 3rd parties. There will be a need to provide functionality to allow ANY 3rd party to submit reports. This will heavily depend on the functionality of the 3rd party and how they provide the reports. We will develop a system that will minimise further development work to accommodate.  
 The two scenarios are as follows:  
