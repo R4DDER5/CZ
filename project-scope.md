@@ -78,7 +78,7 @@ Proposal of what the project aims to achieve with the following objectives:
 ### PROJECT SCOPE
 
 #### Site Design and Development 
-The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals.  
+The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals.The important part of the design is the feature to allow whitelabeling of a client site.  
  
 
 #### Information Architecture  
@@ -139,14 +139,14 @@ __The admin for the e-commerce site will include:__
 * Content/Blog Management
 * Report/File Management
 * Statistic & SEO Management
-* Timesheet Calendar Management
-* Template Management (System Generated Message(s) & Emails, Newsletter/Marketing, Report Templates)
+* Timesheet Calendar Management?
+* Template Management (Client Portals, System Generated Message(s) & Emails, Newsletter/Marketing, Report Templates)
 * 3rd Party/API Management (Data Connection Status)
 
 
 #### SEO strategy, analytics, and social media integration.  
 
-As default google analytics should be in place which then may be expanded to include further SEO tools. Monitoring of 3rd party market activity and social media tracking should also be considered if required.
+As default google analytics should be in place which then may be expanded to include further SEO tools. Monitoring of 3rd party market activity and social media tracking may also be considered if required but this would be a later date. The site will not have requirements to be highly listed on search engines as it will form as invite only. The SEO and statsitics will be slightly different whereby more emphasis is on tracking emails, notifications, when candidates have logged on and when tests, forms and contracts are completed.
 
 
 ### High Level Technical Requirements    
@@ -160,19 +160,18 @@ As default google analytics should be in place which then may be expanded to inc
   
 #### Candidate Forms
 
-The ability to create, manage and assign forms. The creation of forms will include a version of form builder built on existing format. This will include the creation of form pages, sections and elements.  
+The ability to create, manage and assign forms. The creation of forms will include a version of form builder built on existing format. This will include the creation of form pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
 
 The forms will need to include the ability to add standard features such as conditional logic based on a form response.
 
-The form will need to have the ability to add special features such as 
-Calender Verification
+The form will need to have the ability to add special features such as Calender Verification
 
 There will be more feature requests so this will need the flexability to customise 
 
 PDF Report generation of response with the flexability to incorporate client branding and design
 
 
-__SUB HEADING__
+__Some Examples__
 
 
 __SUB HEADING__  
@@ -184,7 +183,9 @@ To use any 3rd party print services you will most likely need to set the report 
   
 #### Screening Forms
 
-Screening forms will be based on the standard form process. The diference with screening forms is that the form will be processed by internal staff
+Screening forms will be based on the standard form process. The diference with screening forms is that the form will be processed by internal staff member input recorded and then final document generated.
+
+Screening forms will need to also have the ability of conditional logic
 
 __Method 1:__ The 3rd party provides us with the physical report: There will be some structure to process that the 3rd party will be informed of, mainly the external provider will upload the document via ALIVE system. Details of report provided will be discussed resolution, page layout, file size, delivery options. A simple system is created that notifies the 3rd party when a report is required, who the customer is and requirements and what date the expected sample/data is received or required. This will presumably be via email and additional elements may also be included in the email body or further emails sent. Contained within the email body will be a link to submit the report when complete, this link can be generated to incorporate important information required by ALIVE customer, document type and document storage. This link will have access for the 3rd party to upload the document, preferably without needing to login. On upload the document will be encrypted, stored in appropriate place and be prepared for moderation. The relevant moderator will notified that the document is ready. The document will then be easily approved by the moderator. Once approved the customer will have access to the document and receive notification via email. The document may need to be processed accordingly to suit print requirements.
 
@@ -197,12 +198,14 @@ Storage file types and delivery options mainly method 1 need to be reviewed in d
  </p>
 
 #### Candidate Tests  
-Candidate tests will be based in intial design functionalitly of forms
-
+Candidate tests creation will be based in intial design functionalitly of forms with pages, sections and elements.
+__Questions__
 Questions will need to be able to be formatted ideally with a WYSIWG editor.
 
 Questions will take the form of text images and video.
 
+__Answers__
+The answers submitted will need to be verified as to being correct
 
 
 <a target="_blank" href="https://www.orderfulfilment.co.uk/s/myWarehouse_api_v1_9_consolidated.pdf" style="font-size:1.1em;">myWarehouse API Documentation</a>
