@@ -155,7 +155,7 @@ As default google analytics should be in place which then may be expanded to inc
   * Candidate Forms
   * Screening Forms
   * Candidate Tests
-  * Mobile Application (ALF)
+  * Contracts
   * Printers
   * Live Chat
  
@@ -166,9 +166,11 @@ The ability to create, manage and assign forms. The creation of forms will inclu
 
 The forms will need to include the ability to add standard features such as conditional logic based on a form response.
 
-The form will need to have the ability to add special features such as Calender Verification
+The form will need to have the ability to add special features such as Calender Verification  
 
 There will be more feature requests so this will need the flexability to customise 
+
+Rate the candidate response
 
 PDF Report generation of response with the flexability to incorporate client branding and design
 
@@ -189,11 +191,13 @@ Screening forms will be based on the standard form process. The diference with s
 
 Screening forms will need to also have the ability of conditional logic
 
-__Method 1:__ The 3rd party provides us with the physical report: There will be some structure to process that the 3rd party will be informed of, mainly the external provider will upload the document via ALIVE system. Details of report provided will be discussed resolution, page layout, file size, delivery options. A simple system is created that notifies the 3rd party when a report is required, who the customer is and requirements and what date the expected sample/data is received or required. This will presumably be via email and additional elements may also be included in the email body or further emails sent. Contained within the email body will be a link to submit the report when complete, this link can be generated to incorporate important information required by ALIVE customer, document type and document storage. This link will have access for the 3rd party to upload the document, preferably without needing to login. On upload the document will be encrypted, stored in appropriate place and be prepared for moderation. The relevant moderator will notified that the document is ready. The document will then be easily approved by the moderator. Once approved the customer will have access to the document and receive notification via email. The document may need to be processed accordingly to suit print requirements.
+Pass/fail/hold
 
-__Method 2:__ The 3rd party will provide to some form of API or Gateway. The details of the API will differ with provider, therefore using this method will involve some custom work for each client to initiate data integration between systems. The report will be dynamically generated created based on the process we will use for internal reports. The moderator will be notified, the moderator will have the ability to approve. Once approved the customer will have access to the document and receive notification via email.
 
 Storage file types and delivery options mainly method 1 need to be reviewed in detail. Content Delivery Network, AWS?
+
+
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/52332471/106593958-59e30400-6549-11eb-83a0-4d31203a50c0.png" />
@@ -201,6 +205,17 @@ Storage file types and delivery options mainly method 1 need to be reviewed in d
 
 #### Candidate Tests  
 Candidate tests creation will be based in intial design functionalitly of forms with pages, sections and elements.
+
+Test introductions before test begins to explain and on occasion provide examples. Do we need the ability to only display the text once?
+
+Test time and perhaps time per question - extra consideration should be made so that time can not be altered by the end user
+maximum number of questions
+Questions in order or random
+pass percentage
+How many attempts before the test in not accessable anymore
+change score per question - 
+multiple correct answers
+
 __Questions__
 Questions will need to be able to be formatted ideally with a WYSIWG editor.
 
@@ -209,8 +224,15 @@ Questions will take the form of text images and video.
 __Answers__
 The answers submitted will need to be verified as to being correct
 
+Current answer types - text, date 
 
-<a target="_blank" href="https://www.orderfulfilment.co.uk/s/myWarehouse_api_v1_9_consolidated.pdf" style="font-size:1.1em;">myWarehouse API Documentation</a>
+answer not case sensitive
+answers must be provided in a sequence
+minimum/maximum characters allowed
+answers must be in a specific sequence
+the answer gets manually reviewed
+overide individual question scores
+
 
 
 ##### Mobile Application ALF
