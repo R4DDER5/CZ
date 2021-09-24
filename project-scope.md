@@ -36,7 +36,9 @@ The candidate zone will require an SEO strategy and the implementation of analyt
 
 The candidate zone needs to have the ability to white label. Ideally with seperate domains.
 
-The candidate zone site needs to have the ability to accept user generated submissions, this will generally be in the form of uploads of documents. The documents will contain highly sensitive information and therefore needs encryption and highest security standards for storage. Any user generated submissions needs to ability for the relevant people to be notified.
+The candidate zone site needs to have the ability to accept user generated submissions, this will generally be in the form of uploads of documents. The documents will contain highly sensitive information and therefore needs encryption and highest security standards for storage. Any user generated submissions needs to ability for the relevant people to be notified.  
+
+The candidate zone will need to be using the latest technology, allow seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
 
 POINTS TO BE DECIDED
 Video Interviews
