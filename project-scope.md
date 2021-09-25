@@ -108,6 +108,10 @@ __The pages for the default site will include:__ (no particular order)
 * TROUBLESHOOTING  
 
 __The types of services that the site will include:__ (no particular order)  
+* __CLIENT PORTAL__
+  * Branded Template(s)
+  * Custom Content
+  * Candidate Managemnt/Reporting?
 * __CANDIDATE FORMS__ 
   * Screening Forms
   * Additinal Information Forms
@@ -158,7 +162,7 @@ __The admin for the e-commerce site will include:__
 
 
 #### Third Party Integration.  
-The system will allow for 3rd part integration 
+The system will allow for 3rd party integration, genrally API and documentation is required from provider
 
 AQR - Currently to be confirmed.
 
@@ -176,7 +180,14 @@ https://developers.jobadder.com/docs/
   * Candidate Auditing
  
 #### Client Portals
-This will be the client portal text
+The website will provide a portal recruitment solution for multiple clients. Candidates will access the via the relevant client template. 
+
+Custom URLS
+
+Branding and CSS
+
+Javascript
+
   
 #### Candidate Forms
 
