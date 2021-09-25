@@ -108,6 +108,13 @@ __The pages for the default site will include:__ (no particular order)
 * TROUBLESHOOTING  
 
 __The types of services that the site will include:__ (no particular order)  
+* __CANDIDATE FORMS__ 
+  * Screening Forms
+  * Additinal Information Forms
+  * Declaration Forms
+  * Worker/Employee Information Forms
+  * Equal Opportunity Forms
+  * Application Forms
 * __CANDIDATE TESTS__ 
   * Data Checking
   * Numerical Estimation
@@ -116,30 +123,23 @@ __The types of services that the site will include:__ (no particular order)
   * Word Relationships
   * Situational Judgement
   * Typing Tests?
-* __CANDIDATE FORMS__ 
-  * Screening Forms
-  * Additinal Information Forms
-  * Declaration Forms
-  * Worker/Employee Information Forms
-  * Equal Opportunity Forms
-  * Application Forms
 * __CONTRACTS__
   * Standard Contracts
   * Bespoke Contracts
   * Pension Agreements
 * __DOCUMENT UPLOADS__
-  * Overview and promotion of the mobile application with the intent of pushing sales and subscription for this platform
+  * Candidate can upload documents
 <p style="center">
 <img src="https://user-images.githubusercontent.com/52332471/105550230-23131f80-5cf9-11eb-9083-49045005cc5d.png" />
  </p>
 
 __The user profile for the site will include:__
 * Login/Registration
-* Manage Profile
+* Manage Profile - this could include information required for forms
 * Access Contracts
 * Manage Holiday Requests?
 * History? Perhaps a recording of the live video interview
-* Tracking?
+* Reset Password
 
 __The admin for the e-commerce site will include:__
 * Dashboard (Access Levels Determines Display)
@@ -163,6 +163,7 @@ As default google analytics should be in place which then may be expanded to inc
 
 
 ### High Level Technical Requirements    
+  * Client Portals
   * Candidate Forms
   * Screening Forms
   * Candidate Tests
@@ -170,10 +171,16 @@ As default google analytics should be in place which then may be expanded to inc
   * Document Uploads
   * Candidate Auditing
  
+#### Client Portals
+
   
 #### Candidate Forms
 
-The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on some existing features in existing system. This will include the creation of form pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
+The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on some existing features in existing system. The structure of the form layout should include pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
+
+Pages will allow default text to be displayed and can be when next and previous buttons display. The final page will include the submit button
+
+Sections will allow for the grouping of elements and any default text to appear within the form
 
 The forms will need to include the ability to add standard features such as conditional logic based on a form response.  
 
@@ -208,7 +215,6 @@ Rate the candidate response
 
 
 Storage file types and delivery options mainly method 1 need to be reviewed in detail. Content Delivery Network, AWS?
-
 
 
 
