@@ -26,7 +26,7 @@
 
 # Brief and Objectives 
 ## Project Brief
-TO REDEVLOP THE CURRENT CANDIDATE ZONE TO IMPROVE SECURITY, PROCESSES, UPDATES
+TO REDEVELOP THE CURRENT CANDIDATE ZONE TO IMPROVE SECURITY, PROCESSES, UPDATES
 
 ### PROJECT OVERVIEW
 This project involves the design and development of a new version of the 'candidate zone'. This will involve improving functionality and streamlining existing services offered. There will also be a requirement for data integration between external 3rd party systems.
@@ -127,7 +127,7 @@ __The types of services that the site will include:__ (no particular order)
   * Standard Contracts
   * Bespoke Contracts
   * Pension Agreements
-* __24/7 ACCESS - MOBILE APPLICATION__
+* __DOCUMENT UPLOADS__
   * Overview and promotion of the mobile application with the intent of pushing sales and subscription for this platform
 <p style="center">
 <img src="https://user-images.githubusercontent.com/52332471/105550230-23131f80-5cf9-11eb-9083-49045005cc5d.png" />
@@ -167,21 +167,21 @@ As default google analytics should be in place which then may be expanded to inc
   * Screening Forms
   * Candidate Tests
   * Contracts
-  * Printers
-  * Live Chat
+  * Document Uploads
+  * Candidate Auditing
  
   
 #### Candidate Forms
 
-The ability to create, manage and assign forms. The creation of forms will include a version of form builder built on existing format. This will include the creation of form pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
+The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on some existing features in existing system. This will include the creation of form pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
 
-The forms will need to include the ability to add standard features such as conditional logic based on a form response.
+The forms will need to include the ability to add standard features such as conditional logic based on a form response.  
 
 The form will need to have the ability to add special features such as Calender Verification  
 
 There will be more feature requests so this will need the flexability to customise 
 
-Rate the candidate response
+some more features
 
 PDF Report generation of response with the flexability to incorporate client branding and design
 
@@ -190,7 +190,6 @@ __Some Examples__
 
 
 __SUB HEADING__  
-To use any 3rd party print services you will most likely need to set the report in a print template to incorporate print requirments for machines, it may differ by printer/machines. The print layout may be a diffent to any standard generated PDF layout. The printer will also require the report document to have even page numbers usually divisable by 4. Report pages may not be a standard number due to unique information contained. Therefore additional blank pages will need to be added to the document to achieve the correct page count. Any PDF generating software will need adaptable enough to include templates. A further consinderation will need to be made for reports (PDF) provided via 3rd party to enable processing and preparing the document for print when uploaded. The other option is that the printer sets the page count and template for report(s) which will incur a cost each time.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/52332471/106425148-5709e580-645b-11eb-8f09-2159b86d14df.png" />
@@ -203,6 +202,9 @@ Screening forms will be based on the standard form process. The diference with s
 Screening forms will need to also have the ability of conditional logic
 
 Pass/fail/hold
+
+
+Rate the candidate response
 
 
 Storage file types and delivery options mainly method 1 need to be reviewed in detail. Content Delivery Network, AWS?
@@ -246,11 +248,21 @@ overide individual question scores
 
 
 
-##### Mobile Application ALF
+#### Contracts
 
-There will be a need for synchronisation between both ALF and ALIVE. This will involve subscriptions, product sales, booking schedules, surveys and reports.
+The contracts will involve the ability to create contracts
 
-##### Printers  
+Contracts will need a contract template builder. This will include dynamic fields to prepopulate the contract
+
+The potential employee will have the ability to review contract information 
+
+There will be form elements such as agreement and enter name
+
+Once the contract is signed and submitted it becomes locked. A final PDF contract in created.
+
+
+
+#### Document Uploads 
 
 Ideally the report printing will be handled externally with automated process managed internally or connected externally. Some considerations required by print operators
 
@@ -265,7 +277,7 @@ Ideally the report printing will be handled externally with automated process ma
 
 Short-term may require printing to be handled internally so any print management console needs to be robust to accommodate internal printing and different external print providers.
 
-##### Live Chat
+##### Candidate Auditing
 
 The system will have a live chat feature which will notify the end user when staff are online and offline. The live chat will have the ability for end user and staff to communicate directly. Chat logs will be recorded for any further investigation or requests.  
 
