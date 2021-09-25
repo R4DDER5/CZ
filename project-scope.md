@@ -157,9 +157,11 @@ __The admin for the e-commerce site will include:__
 * 3rd Party/API Management (Data Connection Status)
 
 
-#### SEO strategy, analytics, and social media integration.  
+#### Third Party Integration.  
 
-As default google analytics should be in place which then may be expanded to include further SEO tools. Monitoring of 3rd party market activity and social media tracking may also be considered if required but this would be a later date. The site will not have requirements to be highly listed on search engines as it will form as invite only. The SEO and statsitics will be slightly different whereby more emphasis is on tracking emails, notifications, when candidates have logged on and when tests, forms and contracts are completed.
+
+Job Adder
+https://developers.jobadder.com/docs/ 
 
 
 ### High Level Technical Requirements    
@@ -172,7 +174,7 @@ As default google analytics should be in place which then may be expanded to inc
   * Candidate Auditing
  
 #### Client Portals
-
+This will be the client portal text
   
 #### Candidate Forms
 
@@ -234,6 +236,14 @@ pass percentage
 How many attempts before the test in not accessable anymore
 change score per question - 
 multiple correct answers
+
+  * Data Checking
+  * Numerical Estimation
+  * Numerical Interpretation
+  * Data Recognition
+  * Word Relationships
+  * Situational Judgement
+  * Typing Tests?
 
 __Questions__
 Questions will need to be able to be formatted ideally with a WYSIWG editor.
