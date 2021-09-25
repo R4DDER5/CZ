@@ -158,7 +158,9 @@ __The admin for the e-commerce site will include:__
 
 
 #### Third Party Integration.  
+The system will allow for 3rd part integration 
 
+AQR - Currently to be confirmed.
 
 Job Adder
 https://developers.jobadder.com/docs/ 
@@ -180,9 +182,27 @@ This will be the client portal text
 
 The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on some existing features in existing system. The structure of the form layout should include pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
 
-Pages will allow default text to be displayed and can be when next and previous buttons display. The final page will include the submit button
+Form Properties
+Name 
+Title
+Description
+Last Page is a thankyou
+Mail Notifications
+Form Progress
+Save and Continue
+Override next/previous labels
+Label positions
+Visability Rules
+
+Pages will allow default introduction text to be displayed and will be determined with next and previous buttons. The final page will include the submit button
 
 Sections will allow for the grouping of elements and any default text to appear within the form
+Element Display - Row or break after each element
+
+Elements - 
+Types - Textfield, text area, radio group, checkbox group, checkbox, select from list, file upload, hidden input, captcha, calander
+Readonly
+Validation - error message
 
 The forms will need to include the ability to add standard features such as conditional logic based on a form response.  
 
@@ -190,9 +210,9 @@ The form will need to have the ability to add special features such as Calender 
 
 There will be more feature requests so this will need the flexability to customise 
 
-some more features
+PDF Report generation of response with the flexability to incorporate client branding and design  
 
-PDF Report generation of response with the flexability to incorporate client branding and design
+Action scripts  
 
 
 __Some Examples__
