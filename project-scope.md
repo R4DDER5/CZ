@@ -4,6 +4,7 @@
   * [Project Objectives](#project-objectives)
 * [__Project Scope and Tasks__](#project-scope-and-tasks)
   * [Project Scope](#project-scope)
+    * Server Requirements and Framework
     * [Site Design and Development](#site-design-and-development)
     * [Information Architecture](#information-architecture)
     * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
@@ -28,21 +29,21 @@
 TO REDEVLOP THE CURRENT CANDIDATE ZONE TO IMPROVE SECURITY, PROCESSES, UPDATES
 
 ### PROJECT OVERVIEW
-This project involves the design and development of a new version of the candidate zone. This will involve improving functionality and streamlining existing services offered. There will also be a requirement for data integration between external 3rd party systems.
+This project involves the design and development of a new version of the 'candidate zone'. This will involve improving functionality and streamlining existing services offered. There will also be a requirement for data integration between external 3rd party systems.
 
-The candidate zone portal will seek to place itself in a highly expanding and competitive market of recruitment solutions. The site will offer the ability to screen candidates, providen interactive testing capability, dynamic forms, screening, contracts, reporting. The may be requirment for human resource to be decided. PDF Reports.
+The candidate zone portal will seek to place itself in a highly expanding and competitive market of recruitment solutions. The site will offer the ability to screen candidates, providing interactive testing capability, dynamic forms, screening, contracts, and reporting. There may be a requirement for human resource functionality but this is yet to be decided.
 
-The candidate zone will require an SEO strategy and the implementation of analytic's so that campaign effect and performance can be monitored. The e-commerce site needs the ability to publish automatically to social media channels and established online market places. Marketplaces, analytics, and social media must be centralised to allow automatic functionality and also be simple to use with a requirement to enable multiple users to contribute depending on access level.
+The candidate zone needs to have the ability to offer its services on behalf of clients. This will involve the functionality to allow unique branding and template design for each client. This unique template or 'white label' will ideally allow the ability to host individual domains. Where clients do not provide bespoke designs the system will need the ability to allow functionality in a standard base template.
 
-The candidate zone needs to have the ability to white label. Ideally with seperate domains.
+The candidate zone will need the ability to generate reports based on user submissions, and these reports will need to be branded respectively. Currently the format is PDF but other options should be considered to give more flexability.
+
+The candidate zone will require the implementation of data analytic's so that candidate performance can be monitored. The site needs the ability to publish automatically to social media channels and established online market places. Marketplaces, analytics, and social media must be centralised to allow automatic functionality and also be simple to use with a requirement to enable multiple users to contribute depending on access level.
 
 The candidate zone site needs to have the ability to accept user generated submissions, this will generally be in the form of uploads of documents. The documents will contain highly sensitive information and therefore needs encryption and highest security standards for storage. Any user generated submissions needs to ability for the relevant people to be notified.  
 
 The candidate zone will need to be using the latest technology, allow seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
 
-POINTS TO BE DECIDED
-Video Interviews
-Gamification
+There may be requirements for further features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further.
 
 The scope and tasks required to complete this project will follow the time-lines outlined within in order to deliver the components at the associated times. A list of deliverables and assumptions is included herein.
 
@@ -53,25 +54,25 @@ Proposal of what the project aims to achieve with the following objectives:
   * Decide framework that is well supported, allows scalability and can be integrated with internal and external services. 
   * Plan hosting, backups and secure content delivery platform file storage of media.
   * Set-up robust working environment(s) to allow continuous production flow. 
-  * Put in place version control for risk assurance.  
+  * Put in place site specific version control for risk assurance i.e GIT 
 
 * __Objective 2__
   * Accommodate design for a clean, modern recruitment portal. 
-  * Deliver a seamless and engaging candidate experience
-  * Deliver and improve any existing functionality
-  * Deliver its products/services accurately and efficiently.
+  * Deliver a seamless and engaging candidate experience. 
+  * Incorporate and improve existing features whilst integrating new functionality
+  * Deliver services for multiple clients accurately and efficiently.
   
 * __Objective 3__
   * Build a highly functional recruitment tool which allows easy management by staff and retains candidate activity and allows easy processing of analytical data.
 
 * __Objective 4__
-  * Integrate efficiently with internal and external services.
+  * Integrate efficiently with any external services required and existing internal services.
 
 * __Objective 5__
   * Develop for maximum external sales ensuring existing marketplaces can be utilised.
   
 * __Objective 6__
-  * Ensure SEO and analytics are in place to maximise rankings and to help monitor campaign effectiveness.
+  * Ensure data analytics are in place to to help monitor client performance and candidate response.
 
 * __Objective 7__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
@@ -80,49 +81,59 @@ Proposal of what the project aims to achieve with the following objectives:
 ### PROJECT SCOPE
 
 #### Site Design and Development 
-The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals.The important part of the design is the feature to allow whitelabeling of a client site.  
+The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals. The site will include the feature of allowing client templates which should be able to handle complex interface functionality such as CSS and javascript.  
  
+#### Server Requirements and Framework
+The server will need the option for scaleability. Final decision has yet to made with the following options considered.
+Iomart - current Virtual Private Server is hosted by them and may give option for easier data integration
+AWS - Offers scaleable options and free for first 12 months providing not going over data limits
+
+The site will be built using the latest version of Laravel based on time project commences. This will then include an easy method to update to any latest releases thereafter. There will be additional work required when new versions are realeased however the structure of the production environment should mean little or no impact on businesss continuity..
+
+The following requirements
+Apache2 - 2.4.7?
+Mysql - version?
+PHP - < 7.2.16
+
+Laravel was chosen due to its ever increasing popularity which offers great resources and continual development. Laravel offers great security.
 
 #### Information Architecture  
-The information architecture will include blog pages, e-commerce, news, user generated content, profile, order and admin management.
+The site will be mainly invite only once logged into to client portal you will see more NEEDS EXPANDING.
 
-__The pages for the e-commerce site will include:__ (no particular order)  
-* THE MOST IMPORTANT PERSON IS YOU
-* OUR GUARANTEE
-* SCIENCE NATURE/NURTURE
-* OUR SCIENCE TEAM
-* TESTIMONIALS
-* EXPERT GALLERY
-* WE'RE ALWAYS WITH YOU
-* GENERAL FAQs
-* CONTACT  
+__The pages for the default site will include:__ (no particular order)  
+* ABOUT
+* FAQs
+* CONTACT
+* TESTIMONIALS?
+* TROUBLESHOOTING  
 
-__The items to be sold for the e-commerce site will include:__ (no particular order, products MAY NOT be displayed in groups listed)  
-* __DNA TESTS__ (Box DNA Kits)
-  * Energise Me
-  * Man Alive
-  * Woman Alive
-  * Couch Potato Killer
-  * Eat Well
-  * Shrink Me
-* __LIFE ORIENTATIONS__ (Lifestyle Orientated Reports)
-  * Who me?
-  * Love Me Do
-  * Unlock Lockdown
-  * Thinking Chocolate
-  * Stress
-  * Covid ReBoot
-  * Work Better (Professional)
-  * Success & How To Find It (Professional)
-* __EXPERT CONSULTANCY__
-  * A gallery of experts with the ability to book or schedule meetings for a video consultancy
+__The types of services that the site will include:__ (no particular order)  
+* __CANDIDATE TESTS__ 
+  * Data Checking
+  * Numerical Estimation
+  * Numerical Interpretation
+  * Data Recognition
+  * Word Relationships
+  * Situational Judgement
+  * Typing Tests?
+* __CANDIDATE FORMS__ 
+  * Screening Forms
+  * Additinal Information Forms
+  * Declaration Forms
+  * Worker/Employee Information Forms
+  * Equal Opportunity Forms
+  * Application Forms
+* __CONTRACTS__
+  * Standard Contracts
+  * Bespoke Contracts
+  * Pension Agreements
 * __24/7 ACCESS - MOBILE APPLICATION__
   * Overview and promotion of the mobile application with the intent of pushing sales and subscription for this platform
 <p style="center">
 <img src="https://user-images.githubusercontent.com/52332471/105550230-23131f80-5cf9-11eb-9083-49045005cc5d.png" />
  </p>
 
-__The user profile for the e-commerce site will include:__
+__The user profile for the site will include:__
 * Login/Registration
 * Manage Profile
 * Access Contracts
