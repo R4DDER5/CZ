@@ -180,18 +180,18 @@ https://developers.jobadder.com/docs/
   * Candidate Auditing
  
 #### Client Portals
-The website will provide a portal recruitment solution for multiple clients. Candidates will access the via the relevant client template. 
+The website will provide a portal recruitment solution for multiple clients. Candidates will access any services the via the relevant client template. 
 
-Custom URLS
+A requested feature is that client custom URLS can be used which would redirect to the relevant client template.
 
-Branding and CSS
+There will be a wide variety of template designs for various clients so the maintenace should be as flexiable as possible to incorporate bespoke branding. Ideally the administration will incorporate the latest design standards to incorporate features such as Cascading Style Sheets (CSS) and Javascript.
 
 Javascript
 
   
 #### Candidate Forms
 
-The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on some existing features in existing system. The structure of the form layout should include pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
+The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on features available in existing system. The structure of the form layout should include pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
 
 Form Properties
 Name 
@@ -237,7 +237,7 @@ __SUB HEADING__
   
 #### Screening Forms
 
-Screening forms will be based on the standard form process. The diference with screening forms is that the form will be processed by internal staff member input recorded and then final document generated.
+Screening forms will follow the standard form creation process. Screening forms with differ from standard forms mainly due to the requirement that screening forms will be processed on behalf of the user usually by an internal staff member input recorded and then final document generated.
 
 Screening forms will need to also have the ability of conditional logic
 
