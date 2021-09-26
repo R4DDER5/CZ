@@ -241,6 +241,8 @@ i.e. Standard logic - only allow number characters and no alphabet or special ch
 Custom Logic - validate the response on multiple date fields to ensure the date period is at least 10 years.  
 This was achieved in earlier form software by the ability of action scripts.  
 
+The ability to easily copy elements or copy sections including any elements contained in the section is a feature that will be required to avoid unneccesary repetive tasks.
+
 After any form is submitted the results should be contain in a report document, ideally a PDF that is branded accordingly. The ability to easily customise different form outputs is essential.   
 
 The candidate should be able to upload files if required in the form, this will be stored appropriately and handled with maximum security protocol.
