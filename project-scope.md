@@ -350,7 +350,7 @@ Ideally the report printing will be handled externally with automated process ma
 
 Short-term may require printing to be handled internally so any print management console needs to be robust to accommodate internal printing and different external print providers.
 
-##### Candidate Auditing
+#### Candidate Auditing
 
 The system will have a live chat feature which will notify the end user when staff are online and offline. The live chat will have the ability for end user and staff to communicate directly. Chat logs will be recorded for any further investigation or requests.  
 
