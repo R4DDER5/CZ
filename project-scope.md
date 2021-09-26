@@ -246,7 +246,7 @@ After any form is submitted the results should be contain in a report document, 
 The candidate should be able to upload files if required in the form, this will be stored appropriately and handled with maximum security protocol.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/52332471/106425148-5709e580-645b-11eb-8f09-2159b86d14df.png" />
+<img src="https://user-images.githubusercontent.com/52332471/134808207-e1e0a243-6dee-462f-b028-8dd8c07b463c.png" />
  </p>
   
 #### Screening Forms
