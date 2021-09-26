@@ -260,44 +260,43 @@ __Candidate Status__ - Pass/Fail/On Hold
 __Candidate Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexability to change as required per form/element. i.e. select out of 100, select out of 20.  
 
 #### Candidate Tests  
-Candidate tests creation will be based in intial design functionalitly of forms with pages, sections and elements.
+Candidate tests will incorporate the functionality to be built in the same method as the form builder with pages, sections and elements. The difference will be that the response submitted will be verified to determine whether the input is correct.  
+Examples of some previous types of tests:
+  * Data Checking - basic number and data checking
+  * Numerical Estimation - the ability to estimate the correct data
+  * Numerical Interpretation - interpratation of different data sets and the corresponding results
+  * Data Recognition - the ability to recognise and identify important data from tables and charts
+  * Word Relationships - how verbal english words are related, including opposites and similars
+  * Situational Judgement - the measured judgement response from a variety of different situations
+  * Psychometric Tests - test responses evaluated in pyschometric categories such as persoanlity (these tests can only be provided by a third party)
+  * Typing and Speed Tests - calculate the input speed and accuracy based on inputting a provided selection of text.
 
-Test introductions before test begins to explain and on occasion provide examples. Do we need the ability to only display the text once?
+The tests should have some form of introductions before test begins to explain and on occasions where required provide examples, this should be handled via the page functionality in the form builder. There has been the requirement to only display introduction page/text once and then remove from view if the candidate attempts to return to the previous page.
 
-Test time and perhaps time per question - extra consideration should be made so that time can not be altered by the end user
-maximum number of questions
-Questions in order or random
-pass percentage
-How many attempts before the test in not accessable anymore
-change score per question - 
-multiple correct answers
-  
-  * Data Checking
-  * Numerical Estimation
-  * Numerical Interpretation
-  * Data Recognition
-  * Word Relationships
-  * Situational Judgement
-  * Psychometric Tests (these tests can only be provided by a third party)
-  * Typing and Speed Tests?
+The general format is that test are done under a time contraint. It is therefore important to eliminate the ability for any candidate to alter, override or pause any time constraints applied to the test.
 
-__Questions__
-Questions will need to be able to be formatted ideally with a WYSIWG editor.
+Some current important test properties to be included:  
+__Test Time__ - how much time is avialable to complete the test.  
+__Maximum number of questions__ - the maximum number of questions to be displayed should there be a central pool of questions.  
+__Questions display__ - questions are displayed in order created or randomly displayed.  
+__Pass percentage__ - the required correct answer percentage to certify as a pass.  
+__Number of attempts__ - How many attempts the candidate is allowed on specific test. Default is 1.  
+__Answer Score__ - By default 1 correct answer would score 1 point. The ability to overide all the answer scores for all questions. 
 
-Questions will take the form of text images and video.
+##### Questions
+Questions will need to be able to be formatted ideally with a WYSIWG editor. This will allow easy formatting of questions. Questions should be able to include images and tables.
 
-__Answers__
-The answers submitted will need to be verified as to being correct
+##### Answers
+Answers are currently distinqushed by type   
+Current answer types - text, date, radio, select
+The answers submitted will need to be verified as to being correct, therefore the correct answer will need to be included. There has previously be the requirement to include multiple correct answers. i.e answer options 12345, answers 3 and 5 are correct.
 
-Current answer types - text, date 
-
-answer not case sensitive
-answers must be provided in a sequence
-minimum/maximum characters allowed
-answers must be in a specific sequence
-the answer gets manually reviewed
-overide individual question scores
-
+__Answer Score__ - By default 1 correct answer would score 1 point. The ability to overide specific questions to alter associated answer score.  
+__Multiple correct answers__ - Whether the answer has multiple correct answers to choose from.
+__Answer is case sensitive__ - when selected the answer is only correct if the correct case and formatting is used
+__Answers sequenced__ - the answer results must be submitted in correct sequence i.e options 12345 must be submitted 54321
+__Minimum/maximum characters allowed__ - genreally when answers have free text option and to limit the number of characters inputted
+__Manually scored__ - again generally on free text answers and the answer is not correct or has appropriate score unless staff or admin has manually reviewed
 
 
 #### Contracts
