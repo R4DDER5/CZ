@@ -142,7 +142,7 @@ __The types of services that the site will offer include:__ (no particular order
   * Document Uploads
   * Progress and Stage Assessment?
 <p style="center">
-<img src="https://user-images.githubusercontent.com/52332471/134803036-b60fc116-0fa4-4256-9dd9-c81c98161d06.png" />
+<img src="https://user-images.githubusercontent.com/52332471/134803133-91a91287-a2ff-43b4-8978-b5bc08cfc8da.png" />
  </p>
 
 __The user profile for the site will include:__
