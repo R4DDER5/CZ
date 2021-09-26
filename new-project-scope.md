@@ -348,7 +348,7 @@ The site will be tested to make sure it works with a wide selection of browsers 
 __8. Data Collection__  
 All data collection analysis needs to be tested such as notifications of when emails sent, candidates have logged onto sites, tests, forms and contracts are completed.  
 
-## Deliverables and Components
+## DELIVERABLES AND COMPONENTS
 
 ### Deliverables
 1. Build Core Functionality  
@@ -388,7 +388,7 @@ This agreement is based on the following assumptions:
 Sign off may be required before for any of the above 3rd party involvement.
 
 
-## Project Timescales
+## PROJECT TIMESCALES
 
 ### KEY MILESTONES
 
