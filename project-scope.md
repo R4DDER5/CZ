@@ -40,9 +40,7 @@ The new site will need the ability to generate reports based on user submissions
 
 The new site will require the implementation of data analytic's and tracking so that candidate performance can be monitored. 
 
-//Marketplaces, analytics, and social media must be centralised to allow automatic functionality and also be simple to use with a requirement to enable multiple users to contribute depending on access level.\\
-
-//The site needs the ability to publish automatically to social media channels and established online market places.\\
+Any reporting or analytics need to be simple to use with a requirement to enable multiple admin users and potentially clients to view depending on access level(s).
 
 The new site will be accepting user generated submissions mainly in the process of uploading documents required for evaluation. The documents will contain highly sensitive information, therefore serious consideration will be needed into types of encryption and security of data storage. Notification of when documents are ready for evaluation is essential.  
 
