@@ -205,31 +205,28 @@ https://ziggeo.com/
   * Candidate Auditing
  
 #### Client Portals
-The website will provide a portal recruitment solution for multiple clients. Candidates will access any services allocated to them via the relevant client template. 
+The website will provide a portal recruitment solution for multiple clients. Candidates will access any services allocated to them via staff and then displayed in the relevant client template. 
 
-Ideally a client could provide their own domain to direct candidates to the relevant area of the site portal. This client area of the site would be branded accordingly, incorporating client content and final candidate reports. 
+Ideally a client could provide their own domain to direct candidates to the relevant area of the site portal. This client area of the site would be branded accordingly, the branding incorporating client content and final candidate reports. 
 !IMPORTANT - Allowing multiple domains will involve a highly complex and technical solution, incorporating interaction and customisation to parts of the server managment console. Therefore deciding where the site will be hosted becomes an extremely important part of the process to enable this feature (if possible). Using unique domains also presents addtional difficulties in the testing process and ideally would be incorporated at later stages of the development schedule. However careful considerations will need to be made at the very beginning of development as changing and using different domain(s) has major implications on the root structure of files and folders which is essential to providing smooth running website and services.
 
-There will be a wide variety of template designs for various clients so the maintenace should be as flexiable as possible to incorporate bespoke branding. Ideally the administration will incorporate the latest design standards to incorporate features such as Cascading Style Sheets (CSS) and Javascript.
-
-Javascript
-
+The style and design will vary between clients. The administration and creation of client templates should be built with maximum flexability to allow for customisation(s) to deliver any bespoke branding as closely as possible. This should include adhereing to latest web standards and frameworks to allow maximum versitility with ease of creation. Elements such Cascading Style Sheets (CSS) and allowing bespoke Javascript should be incorporated as standard.
   
 #### Candidate Forms
 
-The system should have the ability to easily create, manage and assign forms. The creation of forms will include a version of form builder built on features available in existing system. The structure of the form layout should include pages, sections and elements. This will allow drag and drop facility so that questions can be easily reordered and moved  
+The system should have the ability to easily create, manage and assign forms. Creating of forms should ideally be managed through some version of form builder. The existing form builder features on currrent candidate zone are very in depth and suitable, therefore we would look to replicate some of the important features already provided. Following this structure forms should be compromised of layouts that include pages, sections and elements. The facility to easily adjust and position elements via 'drag and drop' method is essential to be included.  
 
-Form Properties
-Name 
-Title
-Description
-Last Page is a thankyou
-Mail Notifications
-Form Progress
-Save and Continue
-Override next/previous labels
-Label positions
-Visability Rules
+Some current important form properties to be included:
+__Name__ - The unique name allocated to the form for database storage. This could be auto-populated, generally does not include special characters or spaces
+__Title__ - The user friendly name of the form that can include special charcters and spaces
+__Description__ - The long detailed description of the form and its purpose to enable easy identification
+__Last Page is a thankyou__ - If selected after submisssion the candidate is re-directed to a page which explains this is the end of the form process. Can be toggled on/off.
+__Mail Notifications__ - Forms should automatically notify the staff member who allocated it to the candidate. This would allow some extra notifications when complete
+__Form Progress__ - An indicator to demonstrate to end user how much progress they have made in completing the form. Can be toggled on/off.
+__Save and Continue__ - Allowing the user to save any current progress of the form and return at a later stage. Can be toggled on/off.
+__Override next/previous labels__ - Allow the labels on navigation buttons to be changed i.e. back/forward, step 12345
+__Label positions__ - Position the form element field label. Left, Right, Above, Below.
+__Visability Rules__ - Mainly allows visability of the fields to be shown based on the conditional logic of another element. i.e. Do you need to provide further information YES/NO. If yes display textarea to allow more text to be submitted.
 
 Pages will allow default introduction text to be displayed and will be determined with next and previous buttons. The final page will include the submit button
 
@@ -293,14 +290,15 @@ pass percentage
 How many attempts before the test in not accessable anymore
 change score per question - 
 multiple correct answers
-
+  
   * Data Checking
   * Numerical Estimation
   * Numerical Interpretation
   * Data Recognition
   * Word Relationships
   * Situational Judgement
-  * Typing Tests?
+  * Psychometric Tests (these tests can only be provided by a third party)
+  * Typing and Speed Tests?
 
 __Questions__
 Questions will need to be able to be formatted ideally with a WYSIWG editor.
