@@ -4,7 +4,7 @@
   * [Project Objectives](#project-objectives)
 * [__Project Scope and Tasks__](#project-scope-and-tasks)
   * [Project Scope](#project-scope)
-    * Server Requirements and Framework
+    * [Server Requirements and Framework](#server-requirements-and-framework)
     * [Site Design and Development](#site-design-and-development)
     * [Information Architecture](#information-architecture)
     * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
