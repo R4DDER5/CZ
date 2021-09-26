@@ -7,7 +7,7 @@
     * [Server Requirements and Framework](#server-requirements-and-framework)
     * [Site Design and Development](#site-design-and-development)
     * [Information Architecture](#information-architecture)
-    * [SEO strategy, analytics, and social media integration](#seo-strategy-analytics-and-social-media-integration)
+    * [Third Party Integration](#third-party-integration)
     * [High Level Technical Requirements](#high-level-technical-requirements)
        * [Candidate Forms](#candidate-forms)
        * [Screening Forms](#screening-forms)
@@ -172,7 +172,7 @@ __The admin for the e-commerce site will include:__
 * 3rd Party/API Management (Data Connection Status)
 
 
-#### Third Party Integration.  
+#### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has genrally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
 JOB BOARDS  
