@@ -15,7 +15,7 @@
        * [Candidate Tests](#candidate-tests)
        * [Contracts](#contracts)
        * [Document Uploads](#document-uploads)
-       * [Live Chat](#live-chat)    
+       * [Candidate Auditing](#candidate-auditing)    
   * [Project Tasks](#project-tasks)
 * [__Deliverables and Components__](#deliverables-and-components)
   * [Deliverables](#deliverables)
