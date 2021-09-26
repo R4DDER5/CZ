@@ -68,7 +68,7 @@ Project objectives that any re-development of existing candidate zone or new sit
 
 * __Objective 3__
   * Provide an enjoyable candidate experiance. 
-  * Aichieve maximum candidate retention incorporating a useful and engaging services.
+  * Aichieve maximum candidate retention incorporating useful and engaging services.
   
 * __Objective 4__
   * Incorporate and improve existing features whilst integrating any new functionality required.
