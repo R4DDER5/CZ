@@ -157,6 +157,7 @@ __The user profile for the site will include:__
 
 __The admin for the e-commerce site will include:__
 * Dashboard (Access Levels Determines Display)
+* Admin/Staff Managment
 * User Management
 * Group Management
 * Client Management
@@ -172,10 +173,10 @@ __The admin for the e-commerce site will include:__
 
 
 #### Third Party Integration.  
-It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has genrally been via an application programming interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
+It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has genrally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
 JOB BOARDS  
-Developing a system to automatically post to the ever growing number of popular job boards would involve major time and development, therefore it is has been decided to allow other systems to provide this service.
+Developing a system to automatically post to the ever growing number of popular job boards would involve major time and constant development, therefore it is has been decided to allow other systems to provide this service.
 
 Current Considerations  
 Job Adder  
@@ -189,7 +190,7 @@ Third party integration has also been required for psychometric tests, previousl
 https://aqrinternational.co.uk/
 
 VIDEO INTERVIEWS  
-Video storage and management was done via Ziggeo
+Video storage and management was previously done via Ziggeo
 https://ziggeo.com/
 
 
@@ -203,9 +204,10 @@ https://ziggeo.com/
   * Candidate Auditing
  
 #### Client Portals
-The website will provide a portal recruitment solution for multiple clients. Candidates will access any services the via the relevant client template. 
+The website will provide a portal recruitment solution for multiple clients. Candidates will access any services allocated to them via the relevant client template. 
 
-Ideally a client could provide their own domain to direct candidates to the relevant area of the site portal. This client area of the site would be branded accordingly. Allowing a domain to be used will be highly technical and involve accessability to parts of the overall server managment, therefore whoever hosts the site becomes extremely important in this process. Using unique domains also presents addtional difficulties in the testing process and ideally would be incorporated at later stages of developmen, however considerations will need to be made at the very beginning as the changing of domain names has implications on the root structure of files and folders which is essential for a running website
+Ideally a client could provide their own domain to direct candidates to the relevant area of the site portal. This client area of the site would be branded accordingly, incorporating client content and final candidate reports. 
+!IMPORTANT - Allowing multiple domains will involve a highly complex and technical solution, incorporating interaction and customisation to parts of the server managment console. Therefore deciding where the site will be hosted becomes an extremely important part of the process to enable this feature (if possible). Using unique domains also presents addtional difficulties in the testing process and ideally would be incorporated at later stages of the development schedule. However careful considerations will need to be made at the very beginning of development as changing and using different domain(s) has major implications on the root structure of files and folders which is essential to providing smooth running website and services.
 
 There will be a wide variety of template designs for various clients so the maintenace should be as flexiable as possible to incorporate bespoke branding. Ideally the administration will incorporate the latest design standards to incorporate features such as Cascading Style Sheets (CSS) and Javascript.
 
