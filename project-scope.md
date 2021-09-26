@@ -87,12 +87,12 @@ Proposal that re-development of existing candidate zone aims to achieve with the
 ### PROJECT SCOPE
 
 #### Site Design and Development 
-The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will include the feature of allowing client templates incorporation latest technologies and web standards. The site will need to be responsive to accommodate various browser types and devices, this is extremely important to consider due to the different templates that will be avialable. Development will need to continue without final visuals.  
+The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will include the feature of allowing client templates incorporating the latest technologies and web standards. The site will need to be responsive to accommodate various browser types and devices, this is extremely important to consider due to the different templates that will be avialable. Development will need to continue without final visuals.  
  
 #### Server Requirements and Framework
 The server will need the option for scaleability. Final decision has yet to made with the following options considered.
 Iomart - current Virtual Private Server is hosted by them and may give option for easier data integration
-AWS - Offers scaleable options and free for first 12 months providing not going over data limits
+AWS - Offers scaleable options and free for first 12 months providing developing within free resource limits. Any CDN will not be included within free resources.
 
 The site will be built using the latest version of Laravel based on time project commences. This will then include an easy method to update to any latest releases thereafter. There will be additional work required when new versions are realeased however the structure of the production environment should mean little or no impact on businesss continuity..
 
@@ -107,7 +107,7 @@ Laravel was chosen due to its ever increasing popularity which offers great reso
 The main information contained within the site will be hidden from the general public and will require a user logging in to access the majority of site services. Therefore most visitors to the site will be of 'invite only'.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/52332471/134803133-91a91287-a2ff-43b4-8978-b5bc08cfc8da.png" align="center" />
+<img src="https://user-images.githubusercontent.com/52332471/134803133-91a91287-a2ff-43b4-8978-b5bc08cfc8da.png" />
 </p>
 
 __The pages for the default site visable to public will include:__ (no particular order)  
