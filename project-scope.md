@@ -44,7 +44,7 @@ Any reporting or analytics need to be simple to use with a requirement to enable
 
 The new site will be accepting user generated submissions mainly in the process of uploading documents required for evaluation. The documents will contain highly sensitive information, therefore serious consideration will be needed into types of encryption and security of data storage. Notification of when documents are ready for evaluation is essential.  
 
-The candidate zone will need to be using the latest technology, allowing seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
+The new site will need to be using the latest technology, allowing seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
 
 There may be a requirement for human resource functionality but this is yet to be decided.
 
@@ -63,7 +63,7 @@ Proposal that re-development of existing candidate zone aims to achieve with the
 
 * __Objective 2__
   * Accommodate design for a clean, modern recruitment portal, with the ability to switch between mutliple designs. 
-  * Deliver a seamless and engaging candidate experience on behalf of a client. 
+  * Deliver a seamless and engaging candidate experience on behalf of any clients. 
   * Deliver services for a wide range of sectors and clients accurately and efficiently.
   
 * __Objective 3__
@@ -74,10 +74,10 @@ Proposal that re-development of existing candidate zone aims to achieve with the
   * Integrate efficiently with any external services and existing internal services that may be required.
 
 * __Objective 5__
-  * Develop for maximum external sales ensuring existing marketplaces can be utilised.
+  * Develop for maximum external clients in recruitment sector and all available existing candidate marketplaces that can be serviced, providing unique functionality that can not be found elsewhere.
   
 * __Objective 6__
-  * Ensure data analytics are in place to to help monitor client performance and candidate response. REPEAT
+  * Ensure any data analytics and reporting are accurate, simple and in place to to help monitor client performance and candidate response.
 
 * __Objective 7__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
@@ -95,12 +95,12 @@ AWS - Offers scaleable options and free for first 12 months providing developing
 
 The site will be built using the latest version of Laravel based on time project commences. This will then include an easy method to update to any latest releases thereafter. There will be additional work required when new versions are realeased however the structure of the production environment should mean little or no impact on businesss continuity..
 
-The following requirements
-Apache2 - 2.4.7?
-Mysql - version?
+The following requirements  
+Apache2 - 2.4.7?  
+Mysql - version?  
 PHP - < 7.2.16
 
-Laravel was chosen due to its ever increasing popularity which offers great resources and continual development. Laravel offers great security.
+Laravel was chosen due to its ever increasing popularity which offers great resources and continual development. Laravel offers great security. MORE TO BE INCLUDED IN APPENDIX
 
 #### Information Architecture  
 The main information contained within the site will be hidden from the general public and will require a user logging in to access the majority of site services. Therefore most visitors to the site will be of 'invite only'.
@@ -181,26 +181,26 @@ Current Considerations
 Job Adder  
 https://developers.jobadder.com/docs/ 
 
-Historical Job Posting Services
+Historical Job Posting Services  
 - Logic Melon
 
 PYSCHOMETRIC TESTS  
-Third party integration has also been required for psychometric tests, previously the API was provided by AQR 
+Third party integration has also been required for psychometric tests, previously the API was provided by AQR  
 https://aqrinternational.co.uk/
 
 VIDEO INTERVIEWS  
-Video storage and management was previously done via Ziggeo
+Video storage and management was previously done via Ziggeo  
 https://ziggeo.com/
 
 
 ### High Level Technical Requirements    
   * [Client Portals](#client-portals)
-  * Candidate Forms
-  * Screening Forms
-  * Candidate Tests
-  * Contracts
-  * Document Uploads
-  * Candidate Auditing
+  * [Candidate Forms](#candidate-forms)
+  * [Screening Forms](#screening-forms)
+  * [Candidate Tests](#candidate-tests)
+  * [Contracts](#contracts)
+  * [Document Uploads](#document-uploads)
+  * [Candidate Auditing](#candidate-auditing)  
  
 #### Client Portals
 The website will provide a portal recruitment solution for multiple clients. Candidates will access any services allocated to them via staff and then displayed in the relevant client template. 
@@ -332,7 +332,7 @@ Candidates will need to be audited need to discuss this part with ADAM and wheth
 ### PROJECT TASKS
 
 __1. Determine System Framework__  
-Decide which architecture will used and give future proof etc etc. The options that have been considered are Private VPS or. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
+Decide which architecture will used and give future proof etc etc. The options that have been considered are Private VPS or AWS. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
 __2. Setup Working Environments__  
 I would initially propose to have 3 working environments. This would involve a Development Environment (DEV), a Staging Environment (STAGE) and a Live Environment (LIVE). All this environments should have a repository for version control in place. All initial development would take place in the DEV environment, when ready the work would move to the STAGE environment for more rigorous and thorough testing. Once the testing is complete and we have had the sign off that testing is complete and satisfactory, it would then move to the LIVE environment. If any problems are encountered at any point, work would move back to the DEV environment and then once again moved to STAGE for testing. Nothing would move to LIVE until everyone is completely happy for this to proceed.  
 __3. Core Functionality - Forms__  
@@ -378,6 +378,7 @@ Key information we are working with
 
 This agreement is based on the following assumptions:  
 
+- Neil will be doing what he does best - fuckall
 - Tasol will be providing the development team.
 - jobadder will be providing the access to job posting boards.
 - No new client templates will be requested until existing templates have been replicated. 
