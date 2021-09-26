@@ -53,7 +53,7 @@ There may be requirements for further features such as Video Interviews and Gami
 The scope and tasks required to complete this project will follow the time-lines outlined within in order to deliver the components at the associated times. A list of deliverables and assumptions is included herein.
 
 ### PROJECT OBJECTIVES
-Proposal that re-development of existing candidate zone aims to achieve with the following objectives:
+Project objectives that any re-development of existing candidate zone or new site will aim to achieve:
 
 * __Objective 1__  
   * Decide framework that is well supported, allowing scalability and easily integrate external services. 
