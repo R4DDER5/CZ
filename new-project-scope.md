@@ -178,7 +178,7 @@ __The admin for the site will include:__
 #### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
-JOB BOARDS  
+__Job Boards__  
 Developing a system to automatically post to the ever growing number of popular job boards would involve major time and constant development, therefore it is has been decided to allow other systems to provide this service.
 
 Current Considerations  
@@ -188,11 +188,11 @@ https://developers.jobadder.com/docs/
 Historical Job Posting Services  
 - Logic Melon
 
-PSYCHOMETRIC TESTS  
+__Psychometric Tests__ 
 Third party integration has also been required for psychometric tests, previously the API was provided by AQR  
 https://aqrinternational.co.uk/
 
-VIDEO INTERVIEWS  
+__Video Interviews__  
 Video storage and management was previously done via Ziggeo  
 https://ziggeo.com/
 
