@@ -288,7 +288,7 @@ Historical requests have been a selection of images and the correct image needs 
 
 ##### Answers
 Answers are currently distinguished by type   
-Current answer types - text, date, checkbox, radio, select from list, text-area
+Current answer types - text, date, checkbox, radio, select from list, text-area.  
 The answers submitted will need to be verified as to being correct, therefore the correct answer will need to be included. There has previously be the requirement to include multiple correct answers. i.e answer options 12345, answers 3 and 5 are correct.
 
 __Answer Score__ - By default 1 correct answer would score 1 point. The ability to override specific questions to alter associated answer score.  
