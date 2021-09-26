@@ -154,7 +154,7 @@ __The user profile for the site will include:__
 * Reset Login Information
 * Contact Assigned Staff Member?
 
-__The admin for the e-commerce site will include:__
+__The admin for the site will include:__
 * Dashboard (Access Levels Determines Display)
 * Admin/Staff Management
 * User Management
