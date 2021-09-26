@@ -214,26 +214,25 @@ The style and design will vary between clients. The administration and creation 
   
 #### Candidate Forms
 
-The system should have the ability to easily create, manage and assign forms. Creating of forms should ideally be managed through some version of form builder. The existing form builder features on currrent candidate zone are very in depth and suitable, therefore we would look to replicate some of the important features already provided. Following this structure forms should be compromised of layouts that include pages, sections and elements. The facility to easily adjust and position elements via 'drag and drop' method is essential to be included.  
+The system should have the ability to easily create, manage and assign forms. Creating of forms should ideally be managed through some version of form builder. The existing form builder features on currrent candidate zone are very in depth and suitable, therefore we would look to replicate some of the important features already provided.  
 
 Some current important form properties to be included:  
 __Name__ - The unique name allocated to the form for database storage. This could be auto-populated, generally does not include special characters or spaces  
 __Title__ - The user friendly name of the form that can include special charcters and spaces  
 __Description__ - The long detailed description of the form and its purpose to enable easy identification  
-__Last Page is a thankyou__ - If selected after submisssion the candidate is re-directed to a page which explains this is the end of the form process. Can be toggled on/off.  
-__Mail Notifications__ - Forms should automatically notify the staff member who allocated it to the candidate. This would allow some extra notifications when complete  
-__Form Progress__ - An indicator to demonstrate to end user how much progress they have made in completing the form. Can be toggled on/off.  
-__Save and Continue__ - Allowing the user to save any current progress of the form and return at a later stage. Can be toggled on/off.  
+__Last page is a thankyou__ - If selected after submisssion the candidate is re-directed to a page which explains this is the end of the form process. Can be toggled on/off.  
+__Mail notifications__ - Forms should automatically notify the staff member who allocated it to the candidate. This would allow some extra notifications when complete  
+__Form progress__ - An indicator to demonstrate to end user how much progress they have made in completing the form. Can be toggled on/off.  
+__Save and continue__ - Allowing the user to save any current progress of the form and return at a later stage. Can be toggled on/off.  
 __Override next/previous labels__ - Allow the labels on navigation buttons to be changed i.e. back/forward, step 12345  
 __Label positions__ - Position the form element field label. Left, Right, Above, Below.  
-__Visability Rules__ - Mainly allows visability of the fields to be shown based on the conditional logic of another element. i.e. Do you need to provide further information YES/NO. If yes display textarea to allow more text to be submitted.  
+__Visability rules__ - Mainly allows visability of the fields to be shown based on the conditional logic of another element. i.e. Do you need to provide further information YES/NO. If yes display textarea to allow more text to be submitted.  
 
-Pages will allow default introduction text to be displayed and will be determined with next and previous buttons. The final page will include the submit button
+Following existing form builder model, the creation process should be compromised of form layouts that include pages, sections and elements. The facility to easily adjust and position pages, sections and elements via 'drag and drop' method is essential to be included in any new version.
 
-Sections will allow for the grouping of elements and any default text to appear within the form
-Element Display - Row or break after each element
-
-Elements - 
+__Pages__ - Pages allow any default introduction text desription to be displayed if required. Pages will also determine where the appropriate next and previous buttons will be displayed. The final page will include button to submit information (unless the 'Last page is a thankyou' option is selected whereby the submit button will be the previous page to the final page)  
+__Sections__ - Sections will also allow any default introduction text desription to be displayed if required. Sections also provide. A section also allow the display of any elements that are grouped within it, this will either be all elements in a row or a break after each element. Sections should also be included in any visability rules. i.e. If the option Yes is selected display section and all containing elements.  
+__Elements__ - Elements should
 Types - Textfield, text area, radio group, checkbox group, checkbox, select from list, file upload, hidden input, captcha, calander
 Readonly
 Validation - error message
