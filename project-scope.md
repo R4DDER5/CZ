@@ -9,6 +9,7 @@
     * [Information Architecture](#information-architecture)
     * [Third Party Integration](#third-party-integration)
     * [High Level Technical Requirements](#high-level-technical-requirements)
+       * [Client Portals](#client-portals)
        * [Candidate Forms](#candidate-forms)
        * [Screening Forms](#screening-forms)
        * [Candidate Tests](#candidate-tests)
