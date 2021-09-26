@@ -282,7 +282,7 @@ __Number of attempts__ - How many attempts the candidate is allowed on specific 
 __Answer Score__ - By default 1 correct answer would score 1 point. The ability to override all the answer scores for all questions. 
 
 ##### Questions
-Questions will need to be able to be formatted ideally with a WYSIWYG editor. This will allow easy formatting of questions. Questions should be able to include images and tables and even video.
+Questions will need to be able to be formatted ideally with a WYSIWYG editor. This will allow easy formatting of questions. Questions should be able to include images, tables and video questions.
 
 Historical requests have been a selection of images and the correct image needs to be selected or watch the video and answer the provided questions related to the video.
 
