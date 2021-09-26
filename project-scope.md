@@ -294,11 +294,11 @@ Current answer types - text, date, checkbox, radio, select from list, textarea
 The answers submitted will need to be verified as to being correct, therefore the correct answer will need to be included. There has previously be the requirement to include multiple correct answers. i.e answer options 12345, answers 3 and 5 are correct.
 
 __Answer Score__ - By default 1 correct answer would score 1 point. The ability to overide specific questions to alter associated answer score.  
-__Multiple correct answers__ - Whether the answer has multiple correct answers to choose from.
-__Answer is case sensitive__ - when selected the answer is only correct if the correct case and formatting is used
-__Answers sequenced__ - the answer results must be submitted in correct sequence i.e options 12345 must be submitted 54321
-__Minimum/maximum characters allowed__ - genreally when answers have free text option and to limit the number of characters inputted
-__Manually scored__ - again generally on free text answers and the answer is not correct or has appropriate score unless staff or admin has manually reviewed
+__Multiple correct answers__ - Whether the answer has multiple correct answers to choose from.  
+__Answer is case sensitive__ - when selected the answer is only correct if the correct case and formatting is used  
+__Answers sequenced__ - the answer results must be submitted in correct sequence i.e options 12345 must be submitted 54321  
+__Minimum/maximum characters allowed__ - genreally when answers have free text option and to limit the number of characters inputted  
+__Manually scored__ - again generally on free text answers and the answer is not correct or has appropriate score unless staff or admin has manually reviewed  
 
 
 #### Contracts
