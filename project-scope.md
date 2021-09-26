@@ -27,7 +27,7 @@
 
 # Brief and Objectives 
 ## Project Brief
-THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES AND TO ENSURE 
+THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES AND TO EVENTUALLY MAKE MATT BURTON THE EMPEROR OF THE WORLD ISSUING IN A NEW RECRUITMENT FRONTIER NOBODY WILL BE ABLE TO ESCAPE FROM OR RESIST WHA HA HA HA 
 
 ### PROJECT OVERVIEW
 This project will involve re-designing and re-developing existing features that are availble via the 'candidate zone' portal. The original version was built 10 years ago and is restricted via the framework for improving mainly security elements. Security should feature as a significant part of any new system. Part of the rebuild should also include improving functionality and streamlining existing services offered, making it also easier to offer further future new functionlity should it be requested. Third party data integration will be required for some external services so it also importaqnt this is considered and planned for.
