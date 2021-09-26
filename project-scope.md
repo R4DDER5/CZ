@@ -284,11 +284,13 @@ __Number of attempts__ - How many attempts the candidate is allowed on specific 
 __Answer Score__ - By default 1 correct answer would score 1 point. The ability to overide all the answer scores for all questions. 
 
 ##### Questions
-Questions will need to be able to be formatted ideally with a WYSIWG editor. This will allow easy formatting of questions. Questions should be able to include images and tables.
+Questions will need to be able to be formatted ideally with a WYSIWG editor. This will allow easy formatting of questions. Questions should be able to include images and tables and even video.
+
+Historical requests have been a selection of images and the correct image needs to be selected or watch the video and answer the provided questions related to the video.
 
 ##### Answers
 Answers are currently distinqushed by type   
-Current answer types - text, date, radio, select
+Current answer types - text, date, checkbox, radio, select from list, textarea
 The answers submitted will need to be verified as to being correct, therefore the correct answer will need to be included. There has previously be the requirement to include multiple correct answers. i.e answer options 12345, answers 3 and 5 are correct.
 
 __Answer Score__ - By default 1 correct answer would score 1 point. The ability to overide specific questions to alter associated answer score.  
@@ -301,36 +303,32 @@ __Manually scored__ - again generally on free text answers and the answer is not
 
 #### Contracts
 
-The contracts will involve the ability to create contracts
+Contracts will need to be created via a template builder to enable formatting and ensure correct legal information is contained correctly.  
+Contracts will also need form elements to allow staff or admins to maniplulate contracts with individual contractual requirements. Once the contractual elements are prepared for the individual the admin or staff will have the ability to review the document.
+The document is then locked and distrubted to the potential employee. if any changes need to be made before the contract is agreed by potential employee then the document can be unlocked and altered accordingly.
+The employee is notified and has the option to review the presented contractual agreement. If the potential employee is satisfied then there will be various form elements to select such as checkboxes for agreement of terms, input name and input date signed.
+The document should automatically be recording when the contract is opened and the date the contract agreement was submitted regardless of what information is provided by the potential employee.
 
-Contracts will need a contract template builder. This will include dynamic fields to prepopulate the contract
+Once the contract has been digitally signed and submitted it becomes locked and can no longer be unlocked by a staff or admin memeber. The staff member is notified once the potential employee has submitted agreement to the contract.  
 
-The potential employee will have the ability to review contract information 
+A final PDF contract in then availble for download by the staff member or the new employee.
 
-There will be form elements such as agreement and enter name
-
-Once the contract is signed and submitted it becomes locked. A final PDF contract in created.
-
-
+Contracts will continually change therefore an adaptable system needs to be incorporated that allows contract revisions to be made but does not alter the orginal document and any historical documents that have been agreed by previous employees
 
 #### Document Uploads 
 
-Ideally the report printing will be handled externally with automated process managed internally or connected externally. Some considerations required by print operators
+The system should be able to allow document uploads associated to a specific candidate. A candidate should be able to upload documents and also staff members should be able to upload doicuments on their behalf.
 
-- Report resolution (3rd Party may be providing)
-- Setting report in print template
-- Additional print pages added to report (printers require total page count to be divided by 4 so blank pages need inserting accordingly)  
+- Document previews without downloading directly. 
 - Secure file transfer options
 - Security & GDPR
-- Print scheduling, accurate lead times to customer
-- Estimated print numbers
-- Timescales for go live - usually to incorporate practice print run and testing.
+- Document upload notifications
 
-Short-term may require printing to be handled internally so any print management console needs to be robust to accommodate internal printing and different external print providers.
+Extra consideration should be given to the secure encryption and storage of documents. Also file limit sizes and document types.
 
 #### Candidate Auditing
 
-The system will have a live chat feature which will notify the end user when staff are online and offline. The live chat will have the ability for end user and staff to communicate directly. Chat logs will be recorded for any further investigation or requests.  
+Candidates will need to be audited need to discuss this part with ADAM and whether it is still required  
 
 
 ### PROJECT TASKS
@@ -339,8 +337,8 @@ __1. Determine System Framework__
 Decide which architecture will used and give future proof etc etc. The options that have been considered are self hosted e-commerce - magento, external hosted shopify. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
 __2. Setup Working Environments__  
 I would initially propose to have 3 working environments. This would involve a Development Environment (DEV), a Staging Environment (STAGE) and a Live Environment (LIVE). All this environments should have a repository for version control in place. All initial development would take place in the DEV environment, when ready the work would move to the STAGE environment for more rigorous and thorough testing. Once the testing is complete and we have had the sign off that testing is complete and satisfactory, it would then move to the LIVE environment. If any problems are encountered at any point, work would move back to the DEV environment and then once again moved to STAGE for testing. Nothing would move to LIVE until everyone is completely happy for this to proceed.  
-__3. Core Functionality and Internal Integration__  
-Design and develop the key aspects that will be used for the core functionality of the site. Install e-commerce framework. Link LIFO reports with appropriate branding.  
+__3. Core Functionality - Forms__  
+Forms and the appropriate form builder provide the basis for forms, screening forms, tests and contracts so extra development time needs to be allocated to ensure this process is correct.  
 __4. Site Design and Content Entry__  
 Once the site design is completed and signed off, content provided to us will be entered onto the site pages. This will include text and pictures for each page to be created with the initial setup, along with meta data.  
 __5. Develop External Integration__   
