@@ -56,7 +56,7 @@ The scope and tasks required to complete this project will follow the time-lines
 Project objectives that any re-development of existing candidate zone or new site will aim to achieve:
 
 * __Objective 1__  
-  * Decide framework that is well supported, allowing scalability and easily integrate external services. 
+  * Decide on a framework that is 'furure proof' well supported, secure, allows scalability and can easily any integrate further future requirements. 
   * Plan hosting, backups and secure file storage/content delivery network (CDN).
   * Set-up robust working environment(s), allowing maximum effectiveness for production flow and further development. 
   * Put in place site specific version control for risk assurance i.e GIT 
