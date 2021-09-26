@@ -338,7 +338,7 @@ I would initially propose to have 3 working environments. This would involve a D
 __3. Core Functionality - Forms__  
 Forms and the appropriate form builder provide the basis for forms, screening forms, tests and contracts so extra development time needs to be allocated to ensure this process is correct and this therefore needs to take priority in development.  
 __4. Core Functionality - Tests, Screening, Contracts__  
-Once the site design is completed and signed off, content provided to us will be entered onto the site pages. This will include text and pictures for each page to be created with the initial setup, along with meta data.  
+Once the form builder and forms functionality is completed it will allow us to proceed on building the screening forms, tests and contracts.  
 __5. Develop External Integration__   
 External integration of job boards and psychometric testing  
 __6. Document Upload and Storage__  
