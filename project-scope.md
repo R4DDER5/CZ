@@ -112,7 +112,7 @@ The main information contained within the site will be hidden from the general p
 
 __The pages for the default site visable to public will include:__ (no particular order)  
 * ABOUT
-* FAQs
+* FAQS
 * CONTACT
 * TESTIMONIALS?
 * TROUBLESHOOTING  
