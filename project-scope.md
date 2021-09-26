@@ -106,6 +106,10 @@ Laravel was chosen due to its ever increasing popularity which offers great reso
 #### Information Architecture  
 The main information contained within the site will be hidden from the general public and will require a user logging in to access the majority of site services. Therefore most visitors to the site will be of 'invite only'.
 
+<div style="text-align:center">
+<img src="https://user-images.githubusercontent.com/52332471/134803133-91a91287-a2ff-43b4-8978-b5bc08cfc8da.png" />
+</div>
+
 __The pages for the default site visable to public will include:__ (no particular order)  
 * ABOUT
 * FAQs
@@ -141,9 +145,6 @@ __The types of services that the site will offer include:__ (no particular order
 * __CANDIDATE AUDITING AND PROGRESS__
   * Document Uploads
   * Progress and Stage Assessment?
-<p style="center">
-<img src="https://user-images.githubusercontent.com/52332471/134803133-91a91287-a2ff-43b4-8978-b5bc08cfc8da.png" />
- </p>
 
 __The user profile for the site will include:__
 * Login/Registration
