@@ -339,30 +339,29 @@ __2. Setup Working Environments__
 I would initially propose to have 3 working environments. This would involve a Development Environment (DEV), a Staging Environment (STAGE) and a Live Environment (LIVE). All this environments should have a repository for version control in place. All initial development would take place in the DEV environment, when ready the work would move to the STAGE environment for more rigorous and thorough testing. Once the testing is complete and we have had the sign off that testing is complete and satisfactory, it would then move to the LIVE environment. If any problems are encountered at any point, work would move back to the DEV environment and then once again moved to STAGE for testing. Nothing would move to LIVE until everyone is completely happy for this to proceed.  
 __3. Core Functionality - Forms__  
 Forms and the appropriate form builder provide the basis for forms, screening forms, tests and contracts so extra development time needs to be allocated to ensure this process is correct and this therefore needs to take priority in development.  
-__4. Site Design and Content Entry__  
+__4. Core Functionality - Tests, Screening, Contracts__  
 Once the site design is completed and signed off, content provided to us will be entered onto the site pages. This will include text and pictures for each page to be created with the initial setup, along with meta data.  
 __5. Develop External Integration__   
-External reports, distribution and shipping and Printing  
-__6. Checkout Payment Integration__  
-Multiple payment options will be setup including Paypal, GoCardless and others to be confirmed. The entire shop experience shall be fully tested from general browsing through to product selection, checkout purchase and delivery notification.  
+External integration of job boards and pychometric testing  
+__6. Document Upload and Storage__  
+Incorporate CDN secure encryption and secure access of any uploaded documents.  
 __7. Browser and Compatibility Testing__  
 The site will be tested to make sure it works with a wide selection of browsers and to ensure it does not break when viewed on mobile devices or tablets.  
 __8. Data Collection__  
-A data collection pop-up invitation to the general mailing list as well as auto cart abandonment detection, general marketing and surveys. contact email and forms will be set up and tested.  
+All data collection analysis needs to be tested such as notifications of when emails sent, candidates have logged onto sites, tests, forms and contracts are completed.  
 
 ## Deliverables and Components
 
 ### Deliverables
 1. Build Core Functionality  
-We will need to prioritise building the e-commerce and LIFO reporting as urgent. Other features need the ability to be switched on and off when required as the project progresses.
-2. E-commerce site Design  
-Following the design being sent by the designer, one round of editing will be allowed before digital sign off is required to move forward to building the site.
-3. Report/Email/Marketing branding needs to be appropriate to ALIVE and its products/services
-4. Ensure shipping and printing is working correctly  .
+We will need to prioritise building the form features intially as so many other components depend on them. Other features need the ability to be switched on and off when required as the project progresses.
+2. Portal site design  
+Replicate existing client site templates.
+3. Reporting on all aspects of system functionality
+4. Ensure third party data connections can be monitored and are working correctly  .
 5. Draft version of site, once all relevant content for the site we have been provided and applicable feature built this will be loaded in and testing can begin. Digital sign off will be required before deploying to the Live Site.
-6. Final version of site
-Relevant training will be conducted on features of site. 
-7. Report building process reviewed, appointment booking and live feeds developed. Further integration with internal and external systems.
+6. Final version of site with relevant training that will be conducted on features and administration of the site. 
+7. Plan any additional phase 2 requirements.
 
 ### Components
 
@@ -370,7 +369,7 @@ Component 1 | User Account and Profile(s)
 Accounts primarilly will be created but registration to the site should also be available, further access to other features like user, group and allocated services will be determined by user access levels.
 
 Component 2 | Site Backup & Security  
-A hard backup copy of the files associated with the site will be delivered on completion to the client on a memory stick, as well as backed up to appropriate secure location(s). Where appropriate the most secure encryption methods will be used.
+A hard backup copy of the files associated with the site will be delivered on completion to the client on a memory stick, as well as backed up to appropriate secure location(s). Where appropriate the most secure encryption methods will be used with data transfer.
 
 Component 3 | Training Documents  
 A reference document outlining how to make updates to the site along with a link to online resources will be built as project develops. 
@@ -381,11 +380,9 @@ Key information we are working with
 
 This agreement is based on the following assumptions:  
 
-- Design with Home will be providing creative layout and designs.
-- Shanti Infotech will be providing the development team.
-- myWarehouse will be providing the distribution and shipping.
-- CDL will be providing the printing and shipping. 
-- vitagen-x.com will be providing the external DNA reports
+- Tasol will be providing the development team.
+- jobadder will be providing the access to job posting boards.
+- No new client templates will be requested until existing templates have been replicated. 
 - Appropriate secure file storage to be decided
 - Appropriate linux hosting to be decided
     
