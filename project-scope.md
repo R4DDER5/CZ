@@ -196,7 +196,7 @@ https://ziggeo.com/
 
 
 ### High Level Technical Requirements    
-  * Client Portals
+  * [Client Portals](#client-portals)
   * Candidate Forms
   * Screening Forms
   * Candidate Tests
