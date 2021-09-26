@@ -257,10 +257,6 @@ Screening forms may have some extra features to be included such as:
 __Candidate Status__ - Pass/Fail/On Hold  
 __Candidate Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexability to change as required per form/element. i.e. select out of 100, select out of 20.  
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/52332471/106593958-59e30400-6549-11eb-83a0-4d31203a50c0.png" />
- </p>
-
 #### Candidate Tests  
 Candidate tests creation will be based in intial design functionalitly of forms with pages, sections and elements.
 
