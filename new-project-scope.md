@@ -57,7 +57,7 @@ Project objectives that any re-development of existing candidate zone or new sit
 
 * __Objective 1__  
   * Decide on a framework that is 'future proof'; well supported, secure, scaleable and offers the opportunity to expand in parallel to business growth. 
-  * Plan hosting, backups and secure file storage/content delivery network (CDN).
+  * Ensure cost effective hosting, reliable backup procedures and secure/reliable storage incorporating a content delivery network (CDN).
   * Set-up robust working environment(s), allowing maximum effectiveness for production flow and further development. 
   * Put in place site specific version control for risk assurance i.e GIT 
 
