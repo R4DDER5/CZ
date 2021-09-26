@@ -334,11 +334,11 @@ Candidates will need to be audited need to discuss this part with ADAM and wheth
 ### PROJECT TASKS
 
 __1. Determine System Framework__  
-Decide which architecture will used and give future proof etc etc. The options that have been considered are self hosted e-commerce - magento, external hosted shopify. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
+Decide which architecture will used and give future proof etc etc. The options that have been considered are Private VPS or. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
 __2. Setup Working Environments__  
 I would initially propose to have 3 working environments. This would involve a Development Environment (DEV), a Staging Environment (STAGE) and a Live Environment (LIVE). All this environments should have a repository for version control in place. All initial development would take place in the DEV environment, when ready the work would move to the STAGE environment for more rigorous and thorough testing. Once the testing is complete and we have had the sign off that testing is complete and satisfactory, it would then move to the LIVE environment. If any problems are encountered at any point, work would move back to the DEV environment and then once again moved to STAGE for testing. Nothing would move to LIVE until everyone is completely happy for this to proceed.  
 __3. Core Functionality - Forms__  
-Forms and the appropriate form builder provide the basis for forms, screening forms, tests and contracts so extra development time needs to be allocated to ensure this process is correct.  
+Forms and the appropriate form builder provide the basis for forms, screening forms, tests and contracts so extra development time needs to be allocated to ensure this process is correct and this therefore needs to take priority in development.  
 __4. Site Design and Content Entry__  
 Once the site design is completed and signed off, content provided to us will be entered onto the site pages. This will include text and pictures for each page to be created with the initial setup, along with meta data.  
 __5. Develop External Integration__   
@@ -366,8 +366,8 @@ Relevant training will be conducted on features of site.
 
 ### Components
 
-Component 1 | E-commerce User Account and Profile(s)  
-Accounts can be created by registration or created manually, further access to other features like user, group and product management will be determined by user access levels.
+Component 1 | User Account and Profile(s)  
+Accounts primarilly will be created but registration to the site should also be available, further access to other features like user, group and allocated services will be determined by user access levels.
 
 Component 2 | Site Backup & Security  
 A hard backup copy of the files associated with the site will be delivered on completion to the client on a memory stick, as well as backed up to appropriate secure location(s). Where appropriate the most secure encryption methods will be used.
@@ -400,11 +400,14 @@ Sign off may be required before for any of the above 3rd party involvement.
 | ------------------------- |:--------------:| -----:    |
 | Finish Technical Scope    | N Radcliffe    | ASAP      |
 | Sign Statement Of Work    | TBC            | TBC       |
-| Finalise Design           |                |           |
-| Content Provided          |                |           |
-| Build Core                |                |           |
-| Internal Features         |                |           |
-| External Features         |                |           |
+| Finalise Intial Design    |                |           |
+| Build Users & Groups      |                |           |
+| Build Form Builder        |                |           |
+| Build Screening Forms     |                |           |
+| Build Tests               |                |           |
+| Build Contracts           |                |           |
+| Build Document Upload     |                |           |
+| Candidate Auditing        |                |           |
 | Finalise Testing          |                |           |
 | Deploy to Staging Site    |                |           |
 | Deploy to Client Domain   |                |           |
