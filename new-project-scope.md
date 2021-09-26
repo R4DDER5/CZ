@@ -404,6 +404,7 @@ Sign off may be required before for any of the above 3rd party involvement.
 | Build Contracts           |                |           |
 | Build Document Upload     |                |           |
 | Candidate Auditing        |                |           |
+| 3rd Party Integration     |                |           |
 | Finalise Testing          |                |           |
 | Deploy to Staging Site    |                |           |
 | Deploy to Client Domain   |                |           |
