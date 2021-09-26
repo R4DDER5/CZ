@@ -82,7 +82,7 @@ Proposal that re-development of existing candidate zone aims to achieve with the
 * __Objective 7__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
 
-## Project Scope and Tasks
+## PROJECT SCOPE AND TASKS
 ### PROJECT SCOPE
 
 #### Site Design and Development 
