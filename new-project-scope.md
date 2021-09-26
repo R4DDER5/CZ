@@ -63,23 +63,27 @@ Project objectives that any re-development of existing candidate zone or new sit
 
 * __Objective 2__
   * Accommodate design for a clean, modern recruitment portal, with the ability to switch between multiple designs. 
-  * Deliver a seamless and engaging candidate experience on behalf of any clients. 
+  * Deliver a seamless provision of services required by any clients. 
   * Deliver services for a wide range of sectors and clients accurately and efficiently.
-  
+
 * __Objective 3__
+  * Provide an enjoyable candidate experiance. 
+  * Aichieve maximum candidate retention incorporating a useful and engaging services.
+  
+* __Objective 4__
   * Incorporate and improve existing features whilst integrating any new functionality required.
   * Build a highly functional recruitment tool which allows easy management by staff and retains candidate activity and allows easy processing of analytical data.
 
-* __Objective 4__
+* __Objective 5__
   * Integrate efficiently with any external services and existing internal services that may be required.
 
-* __Objective 5__
+* __Objective 6__
   * Develop for maximum external clients in recruitment sector and all available existing candidate marketplaces that can be serviced, providing unique functionality that can not be found elsewhere.
   
-* __Objective 6__
+* __Objective 7__
   * Ensure any data analytics and reporting are accurate, simple and in place to to help monitor client performance and candidate response.
 
-* __Objective 7__
+* __Objective 8__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
 
 ## PROJECT SCOPE AND TASKS
