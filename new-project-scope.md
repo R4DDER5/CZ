@@ -1,8 +1,8 @@
-* [__Brief and Objectives__](#brief-and-objectives)
+* [__BRIEF AND OBJECTIVES__](#brief-and-objectives)
   * [Project Brief](#project-brief)
   * [Project Overview](#project-overview)
   * [Project Objectives](#project-objectives)
-* [__Project Scope and Tasks__](#project-scope-and-tasks)
+* [__PROJECT SCOPE AND TASKS__](#project-scope-and-tasks)
   * [Project Scope](#project-scope)
     * [Server Requirements and Framework](#server-requirements-and-framework)
     * [Site Design and Development](#site-design-and-development)
@@ -17,11 +17,11 @@
        * [Document Uploads](#document-uploads)
        * [Candidate Auditing](#candidate-auditing)    
   * [Project Tasks](#project-tasks)
-* [__Deliverables and Components__](#deliverables-and-components)
+* [__DELIVERABLES AND COMPONENTS__](#deliverables-and-components)
   * [Deliverables](#deliverables)
   * [Components](#components) 
-* [__Project Assumptions__](#project-assumptions)  
-* [__Project Timescales__](#project-timescales)
+* [__PROJECT ASSUMPTIONS__](#project-assumptions)  
+* [__PROJECT TIMESCALES__](#project-timescales)
 
   
 
