@@ -232,26 +232,18 @@ Following existing form builder model, the creation process should be compromise
 
 __Pages__ - Pages allow any default introduction text desription to be displayed if required. Pages will also determine where the appropriate next and previous buttons will be displayed. The final page will include button to submit information (unless the 'Last page is a thankyou' option is selected whereby the submit button will be the previous page to the final page)  
 __Sections__ - Sections will also allow any default introduction text desription to be displayed if required. Sections also provide. A section also allow the display of any elements that are grouped within it, this will either be all elements in a row or a break after each element. Sections should also be included in any visability rules. i.e. If the option Yes is selected display section and all containing elements.  
-__Elements__ - Elements should
-Types - Textfield, text area, radio group, checkbox group, checkbox, select from list, file upload, hidden input, captcha, calander
-Readonly
-Validation - error message
+__Elements__ - Elements should include element types that are already pre-defined.  
+Some examples of element types - Textfield, text area, radio group, checkbox group, checkbox, select from list, file upload, hidden input, captcha, calander
+readonly.  
+Elements should have the ability to designate if that field is required, allowing input of the error message if the input is missing or incorrect.
+Ideally elements (and forms) would need the ability to apply some conditional logic and allow some custom logic if required in certain special circumstance.
+i.e. Standard logic - only allow number characters and no alphabet or special characters  
+Custom Logic - validate the response on multiple date fields to ensure the date period is at least 10 years.  
+This was achieved in earlier form software by the ability of action scripts.  
 
-The forms will need to include the ability to add standard features such as conditional logic based on a form response.  
+After any form is submitted the results should be contain in a report document, ideally a PDF that is branded accordingly. The ability to easily customise different form outputs is essential.   
 
-The form will need to have the ability to add special features such as Calender Verification  
-
-There will be more feature requests so this will need the flexability to customise 
-
-PDF Report generation of response with the flexability to incorporate client branding and design  
-
-Action scripts  
-
-
-__Some Examples__
-
-
-__SUB HEADING__  
+The candidate should be able to upload files if required in the form, this will be stored appropriately and handled with maximum security protocol.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/52332471/106425148-5709e580-645b-11eb-8f09-2159b86d14df.png" />
@@ -259,19 +251,11 @@ __SUB HEADING__
   
 #### Screening Forms
 
-Screening forms will follow the standard form creation process. Screening forms with differ from standard forms mainly due to the requirement that screening forms will be processed on behalf of the user usually by an internal staff member input recorded and then final document generated.
+Screening forms will follow the same process of design and creation as standard forms following the page, section and element process. Screening forms with differ from standard forms mainly due to the requirement that screening forms will be processed on behalf of the user usually by an internal staff member as part of a telephone interview. The form submissions will be stored and then output in the relvant branded PDF template.
 
-Screening forms will need to also have the ability of conditional logic
-
-Pass/fail/hold
-
-
-Rate the candidate response
-
-
-Storage file types and delivery options mainly method 1 need to be reviewed in detail. Content Delivery Network, AWS?
-
-
+Screening forms may have some extra features to be included such as:
+__Candidate Status__ - Pass/Fail/On Hold  
+__Candidate Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexability to change as required per form/element. i.e. select out of 100, select out of 20.  
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/52332471/106593958-59e30400-6549-11eb-83a0-4d31203a50c0.png" />
