@@ -26,53 +26,59 @@
 
 # Brief and Objectives 
 ## Project Brief
-TO REDEVELOP THE CURRENT CANDIDATE ZONE TO IMPROVE SECURITY, PROCESSES, UPDATES
+THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES AND TO ENSURE 
 
 ### PROJECT OVERVIEW
-This project involves the design and development of a new version of the 'candidate zone'. This will involve improving functionality and streamlining existing services offered. There will also be a requirement for data integration between external 3rd party systems.
+This project will involve re-designing and re-developing existing features that are availble via the 'candidate zone' portal. The original version was built 10 years ago and is restricted via the framework for improving mainly security elements. Security should feature as a significant part of any new system. Part of the rebuild should also include improving functionality and streamlining existing services offered, making it also easier to incorporate any new further functionlity required. Third party data integration will be required for some external services so it also importaqnt this is considered and planned for.
 
-The candidate zone portal will seek to place itself in a highly expanding and competitive market of recruitment solutions. The site will offer the ability to screen candidates, providing interactive testing capability, dynamic forms, screening, contracts, and reporting. There may be a requirement for human resource functionality but this is yet to be decided.
+The project will seek to place itself in a highly expanding and competitive market sector of recruitment solutions, therefore it is vital to use latest technologies that provide ability to expand in order to remain successful and relevant in the sector. The new site will offer the ability to screen candidates, providing interactive testing capabilities, dynamic form creation and allocation, staff screening of candidates, incorporate contract management and allow data analysis/reporting to monitor effectiveness of campaigns and response rate.
 
-The candidate zone needs to have the ability to offer its services on behalf of clients. This will involve the functionality to allow unique branding and template design for each client. This unique template or 'white label' will ideally allow the ability to host individual domains. Where clients do not provide bespoke designs the system will need the ability to allow functionality in a standard base template.
+The new site will need the ability to provide its services on behalf of clients. To achieve this will involve the functionality to customise and uniquly brand sections of the portal specific to the client. Thie new site should allow any client to incorporate their identity and will ideally allow the ability to host unique domains. Where clients do not provide bespoke designs the system will need the ability to allow functionality to offer standard base template(s) that candidates would use.
 
-The candidate zone will need the ability to generate reports based on user submissions, and these reports will need to be branded respectively. Currently the format is PDF but other options should be considered to give more flexability.
+The new site will need the ability to generate reports based on user submissions, any reports will need to be branded accordingly to related client. The existing format for reports is a PDF, this format is still required but other options should be considered and explored to easily present responses to clients and staff.
 
-The candidate zone will require the implementation of data analytic's so that candidate performance can be monitored. The site needs the ability to publish automatically to social media channels and established online market places. Marketplaces, analytics, and social media must be centralised to allow automatic functionality and also be simple to use with a requirement to enable multiple users to contribute depending on access level.
+The new site will require the implementation of data analytic's and tracking so that candidate performance can be monitored. 
 
-The candidate zone site needs to have the ability to accept user generated submissions, this will generally be in the form of uploads of documents. The documents will contain highly sensitive information and therefore needs encryption and highest security standards for storage. Any user generated submissions needs to ability for the relevant people to be notified.  
+//Marketplaces, analytics, and social media must be centralised to allow automatic functionality and also be simple to use with a requirement to enable multiple users to contribute depending on access level.\\
 
-The candidate zone will need to be using the latest technology, allow seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
+//The site needs the ability to publish automatically to social media channels and established online market places.\\
+
+The new site will be accepting user generated submissions mainly in the process of uploading documents required for evaluation. The documents will contain highly sensitive information, therefore serious consideration will be needed into types of encryption and security of data storage. Notification of when documents are ready for evaluation is essential.  
+
+The candidate zone will need to be using the latest technology, allowing seamless updates for business continuity. Be able to adapt quick in response to new technolgies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
+
+There may be a requirement for human resource functionality but this is yet to be decided.
 
 There may be requirements for further features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further.
 
 The scope and tasks required to complete this project will follow the time-lines outlined within in order to deliver the components at the associated times. A list of deliverables and assumptions is included herein.
 
 ### PROJECT OBJECTIVES
-Proposal of what the project aims to achieve with the following objectives:
+Proposal that re-development of existing candidate zone aims to achieve with the following objectives:
 
 * __Objective 1__  
-  * Decide framework that is well supported, allows scalability and can be integrated with internal and external services. 
-  * Plan hosting, backups and secure content delivery platform file storage of media.
-  * Set-up robust working environment(s) to allow continuous production flow. 
+  * Decide framework that is well supported, allowing scalability and easily integrate external services. 
+  * Plan hosting, backups and secure file storage/content delivery network (CDN).
+  * Set-up robust working environment(s), allowing maximum effectiveness for production flow and further development. 
   * Put in place site specific version control for risk assurance i.e GIT 
 
 * __Objective 2__
-  * Accommodate design for a clean, modern recruitment portal. 
-  * Deliver a seamless and engaging candidate experience. 
-  * Incorporate and improve existing features whilst integrating new functionality
-  * Deliver services for multiple clients accurately and efficiently.
+  * Accommodate design for a clean, modern recruitment portal, with the ability to switch between mutliple designs. 
+  * Deliver a seamless and engaging candidate experience on behalf of a client. 
+  * Deliver services for a wide range of sectors and clients accurately and efficiently.
   
 * __Objective 3__
+  * Incorporate and improve existing features whilst integrating any new functionality required.
   * Build a highly functional recruitment tool which allows easy management by staff and retains candidate activity and allows easy processing of analytical data.
 
 * __Objective 4__
-  * Integrate efficiently with any external services required and existing internal services.
+  * Integrate efficiently with any external services and existing internal services that may be required.
 
 * __Objective 5__
   * Develop for maximum external sales ensuring existing marketplaces can be utilised.
   
 * __Objective 6__
-  * Ensure data analytics are in place to to help monitor client performance and candidate response.
+  * Ensure data analytics are in place to to help monitor client performance and candidate response. REPEAT
 
 * __Objective 7__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
@@ -81,7 +87,7 @@ Proposal of what the project aims to achieve with the following objectives:
 ### PROJECT SCOPE
 
 #### Site Design and Development 
-The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will need to be responsive to accommodate various browser types and devices. Development will need to continue without final visuals. The site will include the feature of allowing client templates which should be able to handle complex interface functionality such as CSS and javascript.  
+The design of the site will be provided in whatever appropriate format is required, the design of the site may not be finalised before the project has begun.  Design work will be signed off via senior management before proceeding to be implemented. Visuals will be available during the course of the project build to enable page and display structure. The site will include the feature of allowing client templates incorporation latest technologies and web standards. The site will need to be responsive to accommodate various browser types and devices, this is extremely important to consider due to the different templates that will be avialable. Development will need to continue without final visuals.  
  
 #### Server Requirements and Framework
 The server will need the option for scaleability. Final decision has yet to made with the following options considered.
@@ -98,19 +104,19 @@ PHP - < 7.2.16
 Laravel was chosen due to its ever increasing popularity which offers great resources and continual development. Laravel offers great security.
 
 #### Information Architecture  
-The site will be mainly invite only once logged into to client portal you will see more NEEDS EXPANDING.
+The main information contained within the site will be hidden from the general public and will require a user logging in to access the majority of site services. Therefore most visitors to the site will be of 'invite only'.
 
-__The pages for the default site will include:__ (no particular order)  
+__The pages for the default site visable to public will include:__ (no particular order)  
 * ABOUT
 * FAQs
 * CONTACT
 * TESTIMONIALS?
 * TROUBLESHOOTING  
 
-__The types of services that the site will include:__ (no particular order)  
+__The types of services that the site will offer include:__ (no particular order)  
 * __CLIENT PORTAL__
   * Branded Template(s)
-  * Custom Content
+  * Custom and Unique Content
   * Candidate Managemnt/Reporting?
 * __CANDIDATE FORMS__ 
   * Screening Forms
@@ -126,24 +132,27 @@ __The types of services that the site will include:__ (no particular order)
   * Data Recognition
   * Word Relationships
   * Situational Judgement
-  * Typing Tests?
+  * Psychometric Tests (these tests can only be provided by a third party)
+  * Typing and Speed Tests?
 * __CONTRACTS__
   * Standard Contracts
   * Bespoke Contracts
   * Pension Agreements
-* __DOCUMENT UPLOADS__
-  * Candidate can upload documents
+* __CANDIDATE AUDITING AND PROGRESS__
+  * Document Uploads
+  * Progress and Stage Assessment?
 <p style="center">
 <img src="https://user-images.githubusercontent.com/52332471/105550230-23131f80-5cf9-11eb-9083-49045005cc5d.png" />
  </p>
 
 __The user profile for the site will include:__
 * Login/Registration
-* Manage Profile - this could include information required for forms
-* Access Contracts
+* Manage Profile - this could include stored information to easily pre-populate forms
+* Access Historical Contracts
 * Manage Holiday Requests?
 * History? Perhaps a recording of the live video interview
-* Reset Password
+* Reset Login Information
+* Contact Assigned Staff Member?
 
 __The admin for the e-commerce site will include:__
 * Dashboard (Access Levels Determines Display)
@@ -162,12 +171,25 @@ __The admin for the e-commerce site will include:__
 
 
 #### Third Party Integration.  
-The system will allow for 3rd party integration, genrally API and documentation is required from provider
+It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has genrally been via an application programming interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
-AQR - Currently to be confirmed.
+JOB BOARDS  
+Developing a system to automatically post to the ever growing number of popular job boards would involve major time and development, therefore it is has been decided to allow other systems to provide this service.
 
-Job Adder
+Current Considerations  
+Job Adder  
 https://developers.jobadder.com/docs/ 
+
+Historical Job Posting Services
+- Logic Melon
+
+PYSCHOMETRIC TESTS  
+Third party integration has also been required for psychometric tests, previously the API was provided by AQR 
+https://aqrinternational.co.uk/
+
+VIDEO INTERVIEWS  
+Video storage and management was done via Ziggeo
+https://ziggeo.com/
 
 
 ### High Level Technical Requirements    
@@ -182,7 +204,7 @@ https://developers.jobadder.com/docs/
 #### Client Portals
 The website will provide a portal recruitment solution for multiple clients. Candidates will access any services the via the relevant client template. 
 
-A requested feature is that client custom URLS can be used which would redirect to the relevant client template.
+Ideally a client could provide their own domain to direct candidates to the relevant area of the site portal. This client area of the site would be branded accordingly. Allowing a domain to be used will be highly technical and involve accessability to parts of the overall server managment, therefore whoever hosts the site becomes extremely important in this process. Using unique domains also presents addtional difficulties in the testing process and ideally would be incorporated at later stages of developmen, however considerations will need to be made at the very beginning as the changing of domain names has implications on the root structure of files and folders which is essential for a running website
 
 There will be a wide variety of template designs for various clients so the maintenace should be as flexiable as possible to incorporate bespoke branding. Ideally the administration will incorporate the latest design standards to incorporate features such as Cascading Style Sheets (CSS) and Javascript.
 
