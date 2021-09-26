@@ -216,17 +216,17 @@ The style and design will vary between clients. The administration and creation 
 
 The system should have the ability to easily create, manage and assign forms. Creating of forms should ideally be managed through some version of form builder. The existing form builder features on currrent candidate zone are very in depth and suitable, therefore we would look to replicate some of the important features already provided. Following this structure forms should be compromised of layouts that include pages, sections and elements. The facility to easily adjust and position elements via 'drag and drop' method is essential to be included.  
 
-Some current important form properties to be included:
-__Name__ - The unique name allocated to the form for database storage. This could be auto-populated, generally does not include special characters or spaces
-__Title__ - The user friendly name of the form that can include special charcters and spaces
-__Description__ - The long detailed description of the form and its purpose to enable easy identification
-__Last Page is a thankyou__ - If selected after submisssion the candidate is re-directed to a page which explains this is the end of the form process. Can be toggled on/off.
-__Mail Notifications__ - Forms should automatically notify the staff member who allocated it to the candidate. This would allow some extra notifications when complete
-__Form Progress__ - An indicator to demonstrate to end user how much progress they have made in completing the form. Can be toggled on/off.
-__Save and Continue__ - Allowing the user to save any current progress of the form and return at a later stage. Can be toggled on/off.
-__Override next/previous labels__ - Allow the labels on navigation buttons to be changed i.e. back/forward, step 12345
-__Label positions__ - Position the form element field label. Left, Right, Above, Below.
-__Visability Rules__ - Mainly allows visability of the fields to be shown based on the conditional logic of another element. i.e. Do you need to provide further information YES/NO. If yes display textarea to allow more text to be submitted.
+Some current important form properties to be included:  
+__Name__ - The unique name allocated to the form for database storage. This could be auto-populated, generally does not include special characters or spaces  
+__Title__ - The user friendly name of the form that can include special charcters and spaces  
+__Description__ - The long detailed description of the form and its purpose to enable easy identification  
+__Last Page is a thankyou__ - If selected after submisssion the candidate is re-directed to a page which explains this is the end of the form process. Can be toggled on/off.  
+__Mail Notifications__ - Forms should automatically notify the staff member who allocated it to the candidate. This would allow some extra notifications when complete  
+__Form Progress__ - An indicator to demonstrate to end user how much progress they have made in completing the form. Can be toggled on/off.  
+__Save and Continue__ - Allowing the user to save any current progress of the form and return at a later stage. Can be toggled on/off.  
+__Override next/previous labels__ - Allow the labels on navigation buttons to be changed i.e. back/forward, step 12345  
+__Label positions__ - Position the form element field label. Left, Right, Above, Below.  
+__Visability Rules__ - Mainly allows visability of the fields to be shown based on the conditional logic of another element. i.e. Do you need to provide further information YES/NO. If yes display textarea to allow more text to be submitted.  
 
 Pages will allow default introduction text to be displayed and will be determined with next and previous buttons. The final page will include the submit button
 
