@@ -373,7 +373,7 @@ Component 3 | Training Documents
 A reference document outlining how to make updates to the site along with a link to online resources will be built as project develops. 
 
 
-## Project Assumptions
+## PROJECT ASSUMPTIONS
 Key information we are working with
 
 This agreement is based on the following assumptions:  
