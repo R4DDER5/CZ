@@ -253,7 +253,7 @@ The candidate should be able to upload files if required in the form, this will 
 
 Screening forms will follow the same process of design and creation as standard forms following the page, section and element process. Screening forms with differ from standard forms mainly due to the requirement that screening forms will be processed on behalf of the user usually by an internal staff member as part of a telephone interview. The form submissions will be stored and then output in the relvant branded PDF template.
 
-Screening forms may have some extra features to be included such as:
+Screening forms may have some extra features to be included such as:  
 __Candidate Status__ - Pass/Fail/On Hold  
 __Candidate Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexability to change as required per form/element. i.e. select out of 100, select out of 20.  
 
