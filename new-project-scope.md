@@ -27,7 +27,7 @@
 
 ## BRIEF AND OBJECTIVES 
 ### PROJECT BRIEF
-THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES AND TO EVENTUALLY MAKE MATT BURTON THE EMPEROR OF THE WORLD ISSUING IN A NEW RECRUITMENT FRONTIER NOBODY WILL BE ABLE TO ESCAPE FROM OR RESIST WHA HA HA HA 
+THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES TBC AFTER MEETING WITH ADAM 
 
 ### PROJECT OVERVIEW
 This project will involve re-designing and re-developing existing features that are available via the 'candidate zone' portal. The original version was built 10 years ago and is now severly restricted via the original framework it was developed upon. The main goal for a re-development of the original s improving mainly security elements. Security should feature as a significant part of any new system. Part of the rebuild should also include improving functionality and streamlining existing services offered, making it also easier to offer further future new functionality should it be requested. Third party data integration will be required for some external services so it also important this is considered and planned for.
@@ -382,7 +382,8 @@ Key information we are working with
 
 This agreement is based on the following assumptions:  
 
-- Neil will be doing what he does best - fuckall
+- Neil Radcliffe - Project Management/Development
+- Adam Bevan - MBA Lead Contact
 - Tasol will be providing the development team.
 - jobadder will be providing the access to job posting boards.
 - No new client templates will be requested until existing templates have been replicated. 
