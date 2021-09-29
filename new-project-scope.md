@@ -38,17 +38,15 @@ The new site will need the ability to provide its services on behalf of clients.
 
 The new site will need the ability to generate reports based on user submissions, any reports will need to be branded accordingly to related client. The existing format for reports is a PDF, this format is still required but other options should be considered and explored to easily present responses to clients and staff.
 
-The new site will require the implementation of data analytics and tracking so that candidate performance can be monitored. 
-
-Any reporting or analytics need to be simple to use with a requirement to enable multiple admin users and potentially clients to view depending on access level(s).
+The new site will require the implementation of data analytics and tracking so that candidate performance can be monitored. Any reporting or analytics need to be simple to use with a requirement to enable multiple admin users and potentially clients to view depending on access level(s).
 
 The new site will be accepting user generated submissions mainly in the process of uploading documents required for evaluation. The documents will contain highly sensitive information, therefore serious consideration will be needed into types of encryption and security of data storage. Notification of when documents are ready for evaluation is essential.  
 
-The new site will need to be using the latest technology, allowing seamless updates for business continuity. Be able to adapt quick in response to new technologies. Have backup and disaster recovery plan and include its own GIT repository for revisions blah blah blah
+The new site will need to be using the latest technology, allowing seamless updates for business continuity. Be able to adapt quick in response to new technologies. Have backup and disaster recovery plan and include its own GIT repository for revisions.
 
 There may be a requirement for human resource functionality but this is yet to be decided.
 
-There may be requirements for further features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further.
+Phase 2 of the project is likely to incorporate features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further to accomodate these and additional feature requests.
 
 The scope and tasks required to complete this project will follow the time-lines outlined within in order to deliver the components at the associated times. A list of deliverables and assumptions is included herein.
 
@@ -62,28 +60,25 @@ Project objectives that any re-development of existing candidate zone or new sit
   * Integrate version control, enabling maximum risk assurance i.e GIT.
 
 * __Objective 2__
-  * Accommodate design for a clean, modern recruitment portal, with the ability to switch between multiple designs. 
+  * Accommodate design for a clean, modern recruitment portal, with the ability to switch between multiple template designs for clients accordingly. 
   * Deliver a seamless provision of services required by any clients. 
   * Deliver services for a wide range of sectors and clients accurately and efficiently.
 
 * __Objective 3__
-  * Provide an enjoyable candidate experiance. 
-  * Aichieve maximum candidate retention incorporating useful and engaging services.
+  * Provide a multifunctional and enjoyable candidate experiance. 
+  * Achieve maximum candidate retention by incorporating engaging services that are both helpful and intuitive.
   
 * __Objective 4__
-  * Incorporate and improve existing features whilst integrating any new functionality required.
-  * Build a highly functional recruitment tool which allows easy management by staff and retains candidate activity and allows easy processing of analytical data.
+  * Incorporate and improve existing features whilst integrating any new future functionality that may be required.
+  * Build a highly functional recruitment tool which allows easy management by staff and clients to monitor candidate activity and also allow the easy processing of any analytical data.
 
 * __Objective 5__
   * Integrate efficiently with any external services and existing internal services that may be required.
 
 * __Objective 6__
-  * Develop for maximum external clients in recruitment sector and all available existing candidate marketplaces that can be serviced, providing unique functionality that can not be found elsewhere.
-  
-* __Objective 7__
-  * Ensure any data analytics and reporting are accurate, simple and in place to to help monitor client performance and candidate response.
+  * Develop for maximum external clients in recruitment sector and all available existing candidate marketplaces that can be serviced, providing unique functionality that can not be provided elsewhere.
 
-* __Objective 8__
+* __Objective 7__
   * Ensure an effective disaster recovery plan is in place to ensure maximum business continuity. Consider ongoing security, data protection, GDPR and standards that need to be applied to site(s).
 
 ## PROJECT SCOPE AND TASKS
