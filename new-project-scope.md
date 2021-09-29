@@ -185,12 +185,12 @@ Access levels will comprise of the following levels
 - Admin - 
 
 #### Group Management
-
+The ability to add a candidate to a group will need to be incorporated into the system. 
 
 #### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
-__Job Boards__  
+##### Job Boards 
 Developing a system to automatically post to the ever growing number of popular job boards would involve major time and constant development, therefore it is has been decided to allow other systems to provide this service.
 
 Current Considerations  
@@ -200,11 +200,11 @@ https://developers.jobadder.com/docs/
 Historical Job Posting Services  
 - Logic Melon
 
-__Psychometric Tests__ 
+##### Psychometric Tests
 Third party integration has also been required for psychometric tests, previously the API was provided by AQR  
 https://aqrinternational.co.uk/
 
-__Video Interviews__  
+##### Video Interviews (most likely Phase 2)
 Video storage and management was previously done via Ziggeo  
 https://ziggeo.com/
 
