@@ -345,11 +345,17 @@ Extra consideration should be given to the secure encryption and storage of docu
 
 #### Candidate Auditing
 
-Candidates will need to be audited need to discuss this part with ADAM and whether it is still required  
+Candidates will need to be audited.  
+Currently this is done via group management, this can improved....
+The whole idea of candidate auditing depends on stages - this has been handled via groups, layering?  
+Candidate auditing = stages of progress in the candidate cycle  
+Use forms in this part of the process this will change the game.  
+The questions are the same as screening - they will all need some type of form element - text, checkbox, select from list
+The diifference is entirely due to progress, 
 
 
 ### PROJECT TASKS
-
+bo
 __1. Determine System Framework__  
 Decide which architecture will used and give future proof etc etc. The options that have been considered are Private VPS or AWS. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
 __2. Setup Working Environments__  
