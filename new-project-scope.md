@@ -190,6 +190,12 @@ The ability to add a candidate to a group will need to be incorporated into the 
 Groups should have the ability to include description text. This text may be displayed on the front-end.
 Groups should have the ability to add services and features. Once a candidate is added to a group, the relevant services and features should automatically assigned to the candidate.
 
+The group managemnt system will have the ability to incorporate the candidate audting sytem - 
+The current system - Certain field are assigned via the group.  
+the candidate progresses -> Next Group -> Previous group features are added ->> next group including previous features the list goes on and on.
+the group allows layering -> i.e. whatever was added previosly is added on top of any functionality from new group.  ^as above
+
+
 #### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
