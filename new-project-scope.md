@@ -174,7 +174,9 @@ __The admin for the site will include:__
 
 #### User Management
 The user management of the system should be easy to use.
-It should involve features to enable/disable a user. Have recorded information when the user was registered to the system and when the user last logged into the system.
+It should involve features to enable/disable a user. Have recorded information when the user was registered to the system and when the user last logged into the system.  
+Within user management candidate profile information should be able to be viewed and altered where required. The user manager may have additional fields such as notes which should not be visiable to the candidate.  
+Any profile information contained in the user profile should have the ability to easily pre-populate any forms/screenings/contracts or tests where the relevant fields are requested.
 
 #### Access Levels
 Access levels will comprise of the following levels
@@ -185,7 +187,9 @@ Access levels will comprise of the following levels
 - Admin - 
 
 #### Group Management
-The ability to add a candidate to a group will need to be incorporated into the system. 
+The ability to add a candidate to a group will need to be incorporated into the system. Groups will mainly be related to specific clients. However stand-alone groups must also be considered.  
+Groups should have the ability to include description text. This text may be displayed on the front-end.
+Groups should have the ability to add services and features. Once a candidate is added to a group, the relevant services and features should automatically assigned to the candidate.
 
 #### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
@@ -270,8 +274,8 @@ The candidate should be able to upload files if required in the form, this will 
 Screening forms will follow the same process of design and creation as standard forms following the page, section and element process. Screening forms with differ from standard forms mainly due to the requirement that screening forms will be processed on behalf of the user usually by an internal staff member as part of a telephone interview. The form submissions will be stored and then output in the relevant branded PDF template.
 
 Screening forms may have some extra features to be included such as:  
-__Candidate Status__ - Pass/Fail/On Hold  
-__Candidate Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexibility to change as required per form/element. i.e. select out of 100, select out of 20.  
+__Screening Status__ - Pass/Fail/On Hold  
+__Screening Rating__ - Rate the total overall responses from the candidate (entire form elements) or rate individual elements. The scoring should include the flexibility to change as required per form/element. i.e. select out of 100, select out of 20.  
 
 #### Candidate Tests  
 Candidate tests will incorporate the functionality to be built in the same method as the form builder with pages, sections and elements. The difference will be that the response submitted will be verified to determine whether the input is correct.  
