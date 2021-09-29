@@ -351,11 +351,11 @@ Extra consideration should be given to the secure encryption and storage of docu
 
 #### Candidate Auditing
 
-Candidates will need to be audited.  
-Currently this is done via group management, this can improved....
-The whole idea of candidate auditing depends on stages - this has been handled via groups, layering?  
+Candidates will need to be audited at each stage of their progress.  
+Currently this is done via group management, questions are asked, relevant details are completed - this could be better
+The whole idea of candidate auditing depends on stages - this has been handled via groups, layering? The previous level of answers and responses should layer on top of any new questions presented at any new stage. At all stages notifications should be sent to releant people included in notifications.
 Candidate auditing = stages of progress in the candidate cycle  
-Use forms in this part of the process this will change the game.  
+Ideally in any new system we would use forms combined with groups to achieve existing functionality.  
 The questions are the same as screening - they will all need some type of form element - text, checkbox, select from list
 The diifference is entirely due to progress, 
 
