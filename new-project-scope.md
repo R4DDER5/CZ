@@ -173,8 +173,7 @@ __The admin for the site will include:__
 * 3rd Party/API Management (Data Connection Status)
 
 #### User Management
-The user management of the system should be easy to use.
-It should involve features to enable/disable a user. Have recorded information when the user was registered to the system and when the user last logged into the system.  
+The user management aspect of the site should include the basic requirements of any user functionality. This would include the name of user, email and encrypted password, with easily facility to reset the password where required. The feature to easily enable/disable a user is also a essential requirement. Additionally analytic information should be available recording when the user was registered to the system and when the user last logged into the system.  
 Within user management candidate profile information should be able to be viewed and altered where required. The user manager may have additional fields such as notes which should not be visiable to the candidate.  
 Any profile information contained in the user profile should have the ability to easily pre-populate any forms/screenings/contracts or tests where the relevant fields are requested.
 
@@ -183,7 +182,7 @@ Access levels will comprise of the following levels
 - Public - Public users will see the default portal template with minimal features and the real goal to covert public users to potential candidates
 - Candidate - Candidates will be assigned specific services related to a client. When the candidate logs into the system the relevant client template should be displayed with the associated services attached to the candidate
 - Clients - A client should have access to a management console allowing the management of candidates associated to that specific client. The client should also be able to access data analytics regarding candidates and generate any associated reports.
-- Staff - Staff should be able to view al client data and candidates and will have the additional management capability incorporating analytics and reporting.
+- Staff - Staff should be able to view all client data and candidates and will have the additional management capability incorporating analytics and reporting.
 - Admin - 
 
 #### Group Management
@@ -204,7 +203,7 @@ https://developers.jobadder.com/docs/
 Historical Job Posting Services  
 - Logic Melon
 
-##### Psychometric Tests
+##### Psychometric Tests (possibly phase 2)
 Third party integration has also been required for psychometric tests, previously the API was provided by AQR  
 https://aqrinternational.co.uk/
 
