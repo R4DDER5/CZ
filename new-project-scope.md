@@ -30,7 +30,7 @@
 THE REDEVELOPMENT OF THE CURRENT CANDIDATE ZONE TO IMPROVE FUNCTIONALITY, SECURITY, PROCESSES, UPDATES TBC AFTER MEETING WITH ADAM 
 
 ### PROJECT OVERVIEW
-This project will involve re-designing and re-developing existing features that are available via the 'candidate zone' portal. The original version was built 10 years ago and is now severly restricted via the original framework it was developed upon. The main goal for a re-development of the original s improving mainly security elements. Security should feature as a significant part of any new system. Part of the rebuild should also include improving functionality and streamlining existing services offered, making it also easier to offer further future new functionality should it be requested. Third party data integration will be required for some external services so it also important this is considered and planned for.
+This project will involve re-designing and re-developing existing features that are available via the 'candidate zone' portal. The original version was built 10 years ago and is now severely restricted via the original framework it was developed upon. The main goal for a re-development of the original s improving mainly security elements. Security should feature as a significant part of any new system. Part of the rebuild should also include improving functionality and streamlining existing services offered, making it also easier to offer further future new functionality should it be requested. Third party data integration will be required for some external services so it also important this is considered and planned for.
 
 The project will seek to place itself in a highly expanding and competitive market sector of recruitment solutions, therefore it is vital to use latest technologies that provide ability to expand in order to remain successful and relevant in the sector. The new site will offer the ability to screen candidates, providing interactive testing capabilities, dynamic form creation and allocation, staff screening of candidates, incorporate contract management and allow data analysis/reporting to monitor effectiveness of campaigns and response rate.
 
@@ -46,7 +46,7 @@ The new site will need to be using the latest technology, allowing seamless upda
 
 There may be a requirement for human resource functionality but this is yet to be decided.
 
-Phase 2 of the project is likely to incorporate features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further to accomodate these and additional feature requests.
+Phase 2 of the project is likely to incorporate features such as Video Interviews and Gamification, so the system needs the ability to be customised and developed further to accommodate these and additional feature requests.
 
 The scope and tasks required to complete this project will follow the time-lines outlined within in order to deliver the components at the associated times. A list of deliverables and assumptions is included herein.
 
@@ -65,7 +65,7 @@ Project objectives that any re-development of existing candidate zone or new sit
   * Deliver services for a wide range of sectors and clients accurately and efficiently.
 
 * __Objective 3__
-  * Provide a multifunctional and enjoyable candidate experiance. 
+  * Provide a multifunctional and enjoyable candidate experience. 
   * Achieve maximum candidate retention by incorporating engaging services that are both helpful and intuitive.
   
 * __Objective 4__
@@ -169,6 +169,20 @@ __The admin for the site will include:__
 * Template Management (Client Portals, System Generated Message(s) & Emails, Newsletter/Marketing, Report Templates)
 * 3rd Party/API Management (Data Connection Status)
 
+#### User Management
+The user management of the system should be easy to use.
+It should involve features to enable/disable a user. Have recorded information when the user was registered to the system and when the user last logged into the system.
+
+#### Access Levels
+Access levels will comprise of the following levels
+- Public - Public users will see the default portal template with minimal features and the real goal to covert public users to potential candidates
+- Candidate - Candidates will be assigned specific services related to a client. When the candidate logs into the system the relevant client template should be displayed with the associated services attached to the candidate
+- Clients - A client should have access to a management console allowing the management of candidates associated to that specific client. The client should also be able to access data analytics regarding candidates and generate any associated reports.
+- Staff - Staff should be able to view al client data and candidates and will have the additional management capability incorporating analytics and reporting.
+- Admin - 
+
+#### Group Management
+
 
 #### Third Party Integration 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
@@ -263,7 +277,7 @@ Examples of some previous types of tests:
   * Numerical Estimation - the ability to estimate the correct data
   * Numerical Interpretation - interpretation of different data sets and the corresponding results
   * Data Recognition - the ability to recognise and identify important data from tables and charts
-  * Word Relationships - how verbal english words are related, including opposites and similar s
+  * Word Relationships - how verbal English words are related, including opposites and similar s
   * Situational Judgement - the measured judgement response from a variety of different situations
   * Psychometric Tests - test responses evaluated in psychometric categories such as personality (these tests can only be provided by a third party)
   * Typing and Speed Tests - calculate the input speed and accuracy based on inputting a provided selection of text.
@@ -396,7 +410,7 @@ Sign off may be required before for any of the above 3rd party involvement.
 | ------------------------- |:--------------:| -----:    |
 | Finish Technical Scope    | N Radcliffe    | ASAP      |
 | Sign Statement Of Work    | TBC            | TBC       |
-| Finalise Design   	      |                |           |
+| Finalise Design           |                |           |
 | Build Users & Groups      |                |           |
 | Build Form Builder        |                |           |
 | Build Screening Forms     |                |           |
