@@ -341,7 +341,7 @@ Contracts will continually change therefore an adaptable system needs to be inco
 #### Document Uploads 
 
 Document uploads provide an integral part of the system. This should be via a candidate or on behalf of a candidate. Any document should be encrypted as part of the process and stored for historical access where required to preview or download by users with the appropriate access level.  
-The time period any document can be stored may vary depending on the sector. For example standard data retention may be 3 years, some financial institutions require documents to be stored for (at least) 7 years. Consideration should therefore made not only on type of encrption and storage options, but also easy methods to automatically processing of removing sensitive documents when required (including user information if required).  
+The time period any document can be stored may vary depending on the sector. For example standard data retention may be 3 years, some financial institutions require documents to be stored for (at least) 7 years. Consideration should therefore made not only on type of encryption and storage options, but also easy methods to automatically process the removal of sensitive documents when required (including user information if required), efficiently and accurately.  
 
 The candidate upload process needs to be considered in terms both encryption on upload and where the final document will be stored. Storage will need to be included in any backup process and potential form part of a reliable CDN. Any cloud storage may incorporate additional security considerations from external audit processes and will therefore need to be included on deciding the most secure method to achieve this.
 
@@ -363,10 +363,10 @@ The file is uploaded via the candidate
 #### Candidate Auditing
 
 Candidates will need to be audited at each stage of their progress.  This will be moderated via (potentially multiple) staff member(s) with notifications at every required stage of the process.
-Currently this is done via the __group management__, form fields containing information are completed based on the stage the designated candidates is in the process.  After any stage is completed and upadated, both internal staff plus clients are notified of the progress.  
+Currently this is done via the __group management__, form fields containing information are completed based on the stage the designated candidates is in the process.  After any stage is completed and updated, both internal staff plus clients are notified of the progress.  
 The whole idea of candidate auditing depends on stages - this has been handled via groups, layering? The previous level of answers and responses should layer on top of any new questions presented at any new stage. At all stages notifications should be sent to relevant people included in notifications.  
 Candidate auditing = stages of progress in the candidate cycle  
-The current questions are similar to screening - they currently use the following type of form element(s) - text, checkbox, select from list, calander
+The current questions are similar to screening - they currently use the following type of form element(s) - text, checkbox, select from list, calendar
 
 
 ### PROJECT TASKS
