@@ -187,7 +187,7 @@ Access levels will comprise of the following levels
 
 #### Group Management
 The ability to add a candidate to a group will need to be incorporated into the system. Groups will mainly be related to specific clients. However stand-alone groups must also be considered.  
-Groups should have the ability to include description text. This text may be displayed on the front-end.
+Groups should have the ability to include description text. This text may be displayed on the front-end and then be presented to the relevant candidate.
 Groups should have the ability to add services and features. Once a candidate is added to a group, the relevant services and features should automatically assigned to the candidate.
 
 The group managemnt system will have the ability to incorporate the candidate audting sytem - 
