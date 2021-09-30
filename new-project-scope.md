@@ -174,7 +174,7 @@ __The admin for the site will include:__
 
 #### User Management
 The user management aspect of the site should include the basic requirements of any user functionality. This would include the name of user, email and encrypted password, with easily facility to reset the password where required. The feature to easily enable/disable a user is also a essential requirement. Additionally analytic information should be available recording when the user was registered to the system and when the user last logged into the system.  
-Within user management candidate profile information should be able to be viewed and altered where required. The user manager may have additional fields such as notes which should not be visiable to the candidate.  
+Within user management candidate profile information should be able to be viewed and altered where required. The user manager may have additional fields such as notes which should not be visible to the candidate.  
 Any profile information contained in the user profile should have the ability to easily pre-populate any forms/screenings/contracts or tests where the relevant fields are requested.
 
 #### Access Levels
@@ -190,10 +190,10 @@ The ability to add a candidate to a group will need to be incorporated into the 
 Groups should have the ability to include description text. This text may be displayed on the front-end and then be presented to the relevant candidate.
 Groups should have the ability to add services and features. Once a candidate is added to a group, the relevant services and features should automatically assigned to the candidate.
 
-The group managemnt system will have the ability to incorporate the candidate audting sytem - 
+The group management system will have the ability to incorporate the candidate auditing system - 
 The current system - Certain field are assigned via the group.  
 the candidate progresses -> Next Group -> Previous group features are added ->> next group including previous features the list goes on and on.
-the group allows layering -> i.e. whatever was added previosly is added on top of any functionality from new group.  ^as above
+the group allows layering -> i.e. whatever was added previously is added on top of any functionality from new group.  ^as above
 
 
 #### Third Party Integration 
@@ -340,7 +340,12 @@ Contracts will continually change therefore an adaptable system needs to be inco
 
 #### Document Uploads 
 
-The system should be able to allow document uploads associated to a specific candidate. A candidate should be able to upload documents and also staff members should be able to upload documents on their behalf.
+Document uploads provide an integral part of the system. This should be via a candidate or on behalf of a candidate. Any document shoud be encrypted and the encrypted document should be associated to relevant candidate.  
+GDPR and the timeframe documents are stored on behalf of the candidate will vary depending often on the sector. Therefore it is important that not only are documents stored securely. Data retention will vary via client to client and will have to be accommodated accordingly.
+
+The candidate upload process needs to be considered in terms both encryption on the upload and where the document is stored. Storage will need to be as part of some form of CDN. This will offer its own problems in cloud storage. Any external audit will take into account cloud storage, we need to be prepared.
+
+NEED THE CURRENT ENCRYPTION METHOD - RSA 64bit
 
 - Document previews without downloading directly. 
 - Secure file transfer options
@@ -349,19 +354,22 @@ The system should be able to allow document uploads associated to a specific can
 
 Extra consideration should be given to the secure encryption and storage of documents. Also file limit sizes and document types.
 
+The current encryption process goes as the following:
+The file is uploaded via the candidate
+
 #### Candidate Auditing
 
-Candidates will need to be audited at each stage of their progress.  
+Candidates will need to be audited at each stage of their progress.  This will be moderated via a staff member and notifications will be sent accordingly.
 Currently this is done via group management, questions are asked, relevant details are completed - this could be better
-The whole idea of candidate auditing depends on stages - this has been handled via groups, layering? The previous level of answers and responses should layer on top of any new questions presented at any new stage. At all stages notifications should be sent to releant people included in notifications.
+The whole idea of candidate auditing depends on stages - this has been handled via groups, layering? The previous level of answers and responses should layer on top of any new questions presented at any new stage. At all stages notifications should be sent to relevant people included in notifications.
 Candidate auditing = stages of progress in the candidate cycle  
 Ideally in any new system we would use forms combined with groups to achieve existing functionality.  
 The questions are the same as screening - they will all need some type of form element - text, checkbox, select from list
-The diifference is entirely due to progress, 
+The difference is entirely due to progress, 
 
 
 ### PROJECT TASKS
-bo
+
 __1. Determine System Framework__  
 Decide which architecture will used and give future proof etc etc. The options that have been considered are Private VPS or AWS. There is now further consideration on using a complete framework options are, codeignitor, NodeJS and Laravel.  
 __2. Setup Working Environments__  
