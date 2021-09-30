@@ -362,10 +362,8 @@ The file is uploaded via the candidate
 Candidates will need to be audited at each stage of their progress.  This will be moderated via (potentially multiple) staff member(s) with notifications at every required stage of the process.
 Currently this is done via the __group management__, form fields containing information are completed based on the stage the designated candidates is in the process.  After any stage is completed and upadated, both internal staff plus clients are notified of the progress.
 The whole idea of candidate auditing depends on stages - this has been handled via groups, layering? The previous level of answers and responses should layer on top of any new questions presented at any new stage. At all stages notifications should be sent to relevant people included in notifications.
-Candidate auditing = stages of progress in the candidate cycle  
-Ideally in any new system we would use forms combined with groups to achieve existing functionality.  
-The questions are the same as screening - they will all need some type of form element - text, checkbox, select from list
-The difference is entirely due to progress, 
+Candidate auditing = stages of progress in the candidate cycle    
+The current questions are similar to screening - they currently use the following type of form element(s) - text, checkbox, select from list, calander
 
 
 ### PROJECT TASKS
