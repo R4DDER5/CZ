@@ -340,10 +340,10 @@ Contracts will continually change therefore an adaptable system needs to be inco
 
 #### Document Uploads 
 
-Document uploads provide an integral part of the system. This should be via a candidate or on behalf of a candidate. Any document shoud be encrypted and the encrypted document should be associated to relevant candidate.  
-GDPR and the timeframe documents are stored on behalf of the candidate will vary depending often on the sector. Therefore it is important that not only are documents stored securely. Data retention will vary via client to client and will have to be accommodated accordingly.
+Document uploads provide an integral part of the system. This should be via a candidate or on behalf of a candidate. Any document should be encrypted as part of the process and stored for historical access where required to preview or download by users with the appropriate access level.  
+The time period any document can be stored may vary depending on the sector. For example standard data retention may be 3 years, some financial institutions require documents to be stored for (at least) 7 years. Consideration should therefore made not only on type of encrption and storage options, but also easy methods to automatically processing of removing sensitive documents when required (including user information if required).  
 
-The candidate upload process needs to be considered in terms both encryption on upload and where the final document will be stored. Storage will need to be as part of some form of CDN. This will offer its own problems in cloud storage. Any external audit will take into account cloud storage, we need to be prepared.
+The candidate upload process needs to be considered in terms both encryption on upload and where the final document will be stored. Storage will need to be included in any backup process and potential form part of a reliable CDN. Any cloud storage may incorporate additional security considerations from external audit processes and will therefore need to be included on deciding the most secure method to achieve this.
 
 The current method of encryption is Rivest–Shamir–Adleman (RSA), which is an asymmetric cipher that functions on two keys: a public key for encryption and a private key for decryption. The private key is contained with a server environmental variable, this method reduces the risk of any key being placed within a web directory structure or database, however if the server does become compromised the server environmental variable could be accessed.  
 
