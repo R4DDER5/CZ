@@ -212,9 +212,10 @@ Historical Job Posting Services
 - Logic Melon
 
 ##### Psychometric Tests (possibly phase 2)
-Psychometric tests
-Third party integration has also been required for psychometric tests, previously the API was provided by AQR  
-https://aqrinternational.co.uk/
+Psychometric tests (also known as aptitude tests) attempt to objectively measure aspects of your mental ability or your personality, in this purpose it will be to determine candidates for job selection. Generally any tests need to go through rigerous evaluation and sampling. Therefore this service will be provided via a service that has already been authorised to provide psychometric analysis.
+Historically the psychometric test API has been provided by AQR  International.  
+https://aqrinternational.co.uk/  
+The API process involved the question and relevant options to be passed directly to the local system. Each question involved a step to a next page. Any options selected were transmitted back to AQR. The final results were processsed and then a report was transmitted back to the local system.
 
 ##### Video Interviews (most likely Phase 2)
 Video storage and management was previously done via Ziggeo  
