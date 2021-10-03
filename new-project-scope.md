@@ -200,9 +200,9 @@ the group allows layering -> i.e. whatever was added previously is added on top 
 It is extremely important that early consideration is given to allowing the ability of third party integration of services. Historically this has generally been via an Application Programming Interface (API). Any relevant API required should have all technical documentation provided by the supplier of services. 
 
 ##### Job Boards 
-A job board API will provide a way that jobs can be posted and listed on multiple popular job boards, a key feature is that any job posted is automatically listed on the ever growing number of popular job boards available online. To incorporate this feature in any new system would involve major time and constant development, therefore it is has been decided to allow a reputable third party to provide this service. Historically the provider of this service has changed multiple times so ideally any early preperation will need made to allow this feature to be easily adapted in the future.  
-The main function of integration will be the any job posted via the external service would be displayed on the local client portal. The application process will genrally redirect the candidate back to the third party site to complete and submit response.  
-Job postings may have different critria for job listings but generally follow similar pattern for fields associated to posting e.g. Job Title, Long Job Description, Short Job Description, Salary, Experience.  
+A job board API will provide a way that jobs can be posted and listed on multiple popular job boards, a key feature is that any job posted is automatically listed on the ever growing number of popular job boards available online. To incorporate this feature in any new system would involve major time and constant development, therefore it is has been decided to allow a reputable third party to provide this service. Historically the provider of this service has changed multiple times so ideally any early preparation will need made to allow this feature to be easily adapted in the future.  
+The main function of integration will be the any job posted via the external service would be displayed on the local client portal. The application process will generally redirect the candidate back to the third party site to complete and submit response.  
+Job postings may have different criteria for job listings but generally follow similar pattern for fields associated to posting e.g. Job Title, Long Job Description, Short Job Description, Salary, Experience.  
 
 Current Considerations  
 - Job Adder  
@@ -212,10 +212,10 @@ Historical Job Posting Services
 - Logic Melon
 
 ##### Psychometric Tests (possibly phase 2)
-Psychometric tests (also known as aptitude tests) attempt to objectively measure aspects of your mental ability or your personality, in this purpose it will be to determine candidates for job selection. Generally any tests need to go through rigerous evaluation and sampling. Therefore this service will be provided via a service that has already been authorised to provide psychometric analysis.
+Psychometric tests (also known as aptitude tests) attempt to objectively measure aspects of your mental ability or your personality, in this purpose it will be to determine candidates for job selection. Generally any tests need to go through rigorous evaluation and sampling. Therefore this service will be provided via a service that has already been authorised to provide psychometric analysis.
 Historically the psychometric test API has been provided by AQR  International.  
 https://aqrinternational.co.uk/  
-The API process involved the question and relevant options to be passed directly to the local system. Each question involved a step to a next page. Any options selected were transmitted back to AQR. The final results were processsed and then a report was transmitted back to the local system.
+The API process involved the question and relevant options to be passed directly to the local system. Each question involved a step to a next page. Any options selected were transmitted back to AQR. The final results were processed and then a report was transmitted back to the local system.
 
 ##### Video Interviews (most likely Phase 2)
 Video storage and management was previously done via Ziggeo  
@@ -456,7 +456,4 @@ Sign off may be required before for any of the above 3rd party involvement.
 | Final Sign Off            |                |           |
 | Code Stored Centrally     |                |           |
 | Ongoing Support Agreement |                |           |
-
-
-
 
