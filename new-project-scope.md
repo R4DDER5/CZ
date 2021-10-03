@@ -201,7 +201,7 @@ It is extremely important that early consideration is given to allowing the abil
 
 ##### Job Boards 
 A job board API will provide a way that jobs can be posted and listed on multiple popular job boards, a key feature is that any job posted is automatically listed on the ever growing number of popular job boards available online. To incorporate this feature in any new system would involve major time and constant development, therefore it is has been decided to allow a reputable third party to provide this service. Historically the provider of this service has changed multiple times so ideally any early preperation will need made to allow this feature to be easily adapted in the future.  
-The main function of integration will be the any job posted via the external service would be displayed on the local client portal. The application process will genrally redirect the candidate back to the third party site to complete the application process.  
+The main function of integration will be the any job posted via the external service would be displayed on the local client portal. The application process will genrally redirect the candidate back to the third party site to complete and submit response.  
 Job postings may have different critria for job listings but generally follow similar pattern for fields associated to posting e.g. Job Title, Long Job Description, Short Job Description, Salary, Experience.  
 
 Current Considerations  
