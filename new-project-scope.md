@@ -183,7 +183,8 @@ Access levels will comprise of the following levels
 - Candidate - Candidates will be assigned specific services related to a client. When the candidate logs into the system the relevant client template should be displayed with the associated services attached to the candidate
 - Clients - A client should have access to a management console allowing the management of candidates associated to that specific client. The client should also be able to access data analytics regarding candidates and generate any associated reports.
 - Staff - Staff should be able to view all client data and candidates and will have the additional management capability incorporating analytics and reporting.
-- Admin - 
+- Staff Admin - The staff admin console should have the ability to manager users and groups, setup clients, setup forms, tests, contracts. Modify conrrespondance 
+- Admin - This main admin console should have all features available via staff admin.  This will also control other sensitive functionality such as core settings, client portal design and configuration.  
 
 #### Group Management
 The ability to add a candidate to a group will need to be incorporated into the system. Groups will mainly be related to specific clients. However stand-alone groups must also be considered.  
