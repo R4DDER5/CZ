@@ -341,7 +341,11 @@ Once the contract has been digitally signed and submitted it becomes locked and 
 
 A final PDF contract in then available for download by the staff member or the new employee.
 
-Contracts will continually change therefore an adaptable system needs to be incorporated that allows contract revisions to be made but does not alter the original document and any historical documents that have been agreed by previous employees
+Contracts will continually change therefore an adaptable system needs to be incorporated that allows contract revisions to be made but does not alter the original document and any historical documents that have been agreed by previous employees.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/52332471/136692377-d7754439-8598-44fe-b152-544cb555a021.png" />
+</p>
 
 #### Document Uploads 
 
